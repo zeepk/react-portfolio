@@ -1,33 +1,91 @@
-.App {
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: 10% 90%;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.grid-item img {
+  max-width: 100%;
+}
+.grid-item p {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-size: 16px;
+}
+
+
+
+em {
+  font-style: normal;
+  font-size: 120%;
+}
+
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#header li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+#navbar ul {
+  /* border: solid purple 2px; */
+  list-style-type: none;
+
+}
+#table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+
+#navbar li {
+  /* border: solid pink 2px; */
+  text-align: center;
+  display: inline;
+  padding: 0px 35px;
+  border-bottom: solid 1px transparent;
+  transition: border .3s;
+
+}
+#navbar li:hover{
+  border-bottom: solid 1px white;
+  
+}
+#navbar li a{
+  text-decoration: none;
+}
+#navbar .active {
+  border-bottom: solid 1px grey;
+}
+/* unvisited link */
+#navbar a:link {
+  color:white;
+}
+
+/* visited link */
+#navbar a:visited {
+  color:white;
+}
+
+#contactClass {
+  width: 40%;
+  margin: auto;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#contactClass a {
+  font-style: normal;
+  color: inherit;
+  text-decoration: none;
 }
