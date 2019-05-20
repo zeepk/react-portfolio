@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route  } from 'react-router-dom'
 import './App.css';
 import Header from './components/layout/Header'
 import Contact from './components/pages/Contact'
+import Projects from './components/pages/Projects'
 import me from './me.jpg';
 
 
@@ -37,6 +38,7 @@ function App() {
       </React.Fragment>
     )} />
     <Route path="/Contact" component={Contact} />
+    <Route path="/Projects" component={Projects} />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"></link>
 
 
