@@ -5,12 +5,18 @@ import Header from './components/layout/Header'
 import Contact from './components/pages/Contact'
 import Projects from './components/pages/Projects'
 import me from './me.jpg';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 
 
 function App() {
  
   return (
+    <React.Fragment>
+    {/* <ParallaxProvider>
+                <App />
+    </ParallaxProvider> */}
     <Router>
     <div className="App">
     <Header />
@@ -49,6 +55,7 @@ function App() {
       
     </div>
   </Router>
+  </React.Fragment>
   );
 }
 
