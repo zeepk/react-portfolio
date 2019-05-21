@@ -36,7 +36,8 @@ function App() {
                             interested in computer science and IT. I have a very <em>focused work ethic</em> and am always <em>thinking ahead</em>. 
                             I work to solve problems quickly and efficiently whether it be on a project or in the workplace. 
                             I am an Eagle Scout and hold myself true to the values associated. Aside from education and work, 
-                            I enjoy volunteering in outdoor parks.</p>
+                            I enjoy volunteering in outdoor parks. <br/><br/> Technologies I am familiar with: <br/>
+                            C++, Python (+Django), C#, Java, Html/Css, JS (+React)</p>
                     </div>
                     <div className="grid-item"></div>
                     
