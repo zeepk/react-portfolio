@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Header() {
   return (
     <header>
-        <div id="header">
+        {/* <div id="header">
             <ul>
                 <li>Matt Hughes</li>
                 
@@ -12,7 +12,7 @@ export default function Header() {
                 
                 <li>matthew.lhCA@gmail.com</li>
             </ul>
-        </div>  
+        </div>   */}
         <div id="navbar">
             <br></br><br></br>
             <div id="table">
