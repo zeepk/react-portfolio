@@ -5,34 +5,40 @@ import Header from './components/layout/Header'
 import Contact from './components/pages/Contact'
 import Projects from './components/pages/Projects'
 import me from './me.jpg';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 
 
 function App() {
  
   return (
+    <React.Fragment>
+    {/* <ParallaxProvider>
+                <App />
+    </ParallaxProvider> */}
     <Router>
     <div className="App">
+    
     <Header />
     <Route exact path="/" render={props => (
       <React.Fragment>
+        <br/>
+        <br/>
         <div className="grid-container">
-                    <div className="grid-item"></div>
-                    <div className="grid-item"></div>
-                    <div className="grid-item"></div>  
-                    <div className="grid-item"></div>
-                    <div className="grid-item"></div>
+
                     <div className="grid-item"><img src={me} alt="cam"/></div>  
                     <div className="grid-item">
                         <h3>About Me</h3>
-                        <p>Hey there, I am a student currently enrolled at Las Positas College and also working as an 
-                            apprentice working on  <em>automation</em>  and  <em>development</em>  at Kaiser Permanente in their IT department. I have always been 
-                            interested in computer science and IT. I have a very <em>focused work ethic</em> and am always <em>thinking ahead</em>. 
-                            I work to solve problems quickly and efficiently whether it be on a project or in the workplace. 
+                        <p>Hey there, my name is <em>Matthew Hughes</em> and I am working as an 
+                            apprentice with automation and development at Kaiser Permanente in their IT department. I am also a student enrolled in 
+                            community college. I have always been interested in computer science and IT. I have a very and am always thinking ahead. 
+                            I work to solve problems proactively and efficiently whether it be on a project or in the workplace. 
                             I am an Eagle Scout and hold myself true to the values associated. Aside from education and work, 
-                            I enjoy volunteering in outdoor parks.</p>
+                            I enjoy volunteering in outdoor parks. <br/><br/> Technologies I am familiar with: <br/>
+                            C++, Python (+Django), C#, Java, Html/Css, JS (+React)</p>
                     </div>
-                    <div className="grid-item"></div>
+                    
                     
                   </div>
       </React.Fragment>
@@ -49,6 +55,7 @@ function App() {
       
     </div>
   </Router>
+  </React.Fragment>
   );
 }
 
