@@ -9,6 +9,7 @@ p {
 .projects-grid {
     display: grid;
     grid-template-columns: 5% 90% 5%;
+    grid-template-rows: repeat(6, 500px);
     /* grid-template-rows: 300px 300px 3000px; */
     /* background-color: #2196F3; */
     padding: 10px;
@@ -24,7 +25,7 @@ p {
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 800px));
-    grid-template-rows: repeat(6, auto);
+    
     
     justify-content: center;
     width: 100%;
