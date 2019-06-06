@@ -14,9 +14,6 @@ function App() {
  
   return (
     <React.Fragment>
-    {/* <ParallaxProvider>
-                <App />
-    </ParallaxProvider> */}
     <Router>
     <div className="App">
     

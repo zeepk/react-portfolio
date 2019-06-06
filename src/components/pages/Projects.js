@@ -12,8 +12,9 @@ export default function Projects() {
       <div></div>
       <div className="projects-grid-item">
         <Project title="Woodcut" image_source={require("./woodcut.PNG")} description="This is a project I currently maintain for a video game. It is a high score checking web 
-        application that checks user entered data against two different API's. The returned data is organized into JavaScript objects and sorted It also brings in an image 
-        from an API and shows an alert when the user that was searched for is not found, or has their game profile set to private." tech="JavaScript, Ajax, HTML, CSS" />
+        application that checks user entered data against multiple API's. There are two pages that are navigated to using React Router. The page knows when a username searched for does not exist and 
+        depopulates the affected tables. The returned data is organized into JavaScript objects and sorted to be rendered. It also brings in an image from an API." 
+        tech="React, JavaScript, Ajax, HTML, CSS" />
       </div>
       <div></div>
     </div>
