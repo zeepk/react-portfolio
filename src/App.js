@@ -5,6 +5,8 @@ import Header from "./components/layout/Header";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import me from "./me.jpg";
+import twitterIcon from "./twitterIcon.png";
+import linkedinIcon from "./linkedinIcon.png";
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
                 <br />
                 <div className="grid-container">
                   <div className="grid-item">
-                    <img src={me} alt="cam" />
+                    <img src={me} alt="Matt Hughes" />
                   </div>
                   <div className="grid-item">
                     <h3>About Me</h3>
@@ -41,6 +43,21 @@ function App() {
                         <br /> Technologies I am familiar with: <br />
                         C++, Python (+Django), C#, Java, Html/Css, JS (+React)
                       </p>
+                      <a
+                        href="https://twitter.com/matthughes2112"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img src={twitterIcon} width="50" alt="Twitter" />
+                      </a>
+
+                      <a
+                        href="https://www.linkedin.com/in/matthew-hughes-62795594/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img src={linkedinIcon} width="50" alt="LinkedIn" />
+                      </a>
                     </div>
                   </div>
                 </div>
