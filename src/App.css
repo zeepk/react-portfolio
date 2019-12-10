@@ -28,11 +28,11 @@
   font-size: 16px;
 }
 
-#aboutMe {
+/* #aboutMe {
   padding: 5px 10px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 25px;
-}
+} */
 
 em {
   font-style: normal;
