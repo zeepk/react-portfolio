@@ -20,7 +20,7 @@ export default function Projects() {
             image_source={require("./woodcut.PNG")}
             image_path="https://woodcut.info/rs3/zee_pk"
             description="This is a project I currently maintain for a video game. It is a high score checking web 
-        application that checks user entered data against multiple API's. There are two pages that are navigated to using React Router. The page knows when a username searched for does not exist and 
+        application that checks user entered data against multiple API's. React Router is used for navigation across many pages. The page knows when a username searched for does not exist and 
         depopulates the affected tables. The returned data is organized into JavaScript objects and sorted to be rendered. It also brings in an image from an API."
             tech="React, JavaScript, Ajax, HTML, CSS"
           />

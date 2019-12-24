@@ -10,10 +10,10 @@ export default function Contact() {
       <h1>Matthew Hughes</h1>
       <h3>(925) 963 3487</h3>
       <a
-        href="mailto:matthew.lhCA@gmail.com?Subject=Hello%20there!"
+        href="mailto:mhughes.ipod@gmail.com?Subject=Hello%20there!"
         target="_top"
       >
-        <h3>matthew.lhCA@gmail.com</h3>
+        <h3>mhughes.ipod@gmail.com</h3>
       </a>
       <a
         href="https://twitter.com/matthughes2112"
@@ -29,6 +29,13 @@ export default function Contact() {
         target="_blank"
       >
         <img src={linkedinIcon} width="50" alt="LinkedIn" />
+      </a>
+      <a
+        href="https://docs.google.com/document/d/1LPr_gMxdj0CbRf6HNA6ULWlNbkv954gObCgyODMJtCM/edit?usp=sharing"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <h3>click here for my resume</h3>
       </a>
       <br />
       <br />

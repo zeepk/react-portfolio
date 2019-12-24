@@ -58,6 +58,14 @@ function App() {
                       >
                         <img src={linkedinIcon} width="50" alt="LinkedIn" />
                       </a>
+                      <br />
+                      <a
+                        href="https://docs.google.com/document/d/1LPr_gMxdj0CbRf6HNA6ULWlNbkv954gObCgyODMJtCM/edit?usp=sharing"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <h6>Click here for my resume!</h6>
+                      </a>
                     </div>
                   </div>
                 </div>
