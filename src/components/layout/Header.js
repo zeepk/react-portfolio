@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header>
-        {/* <div id="header">
+      {/* <div id="header">
             <ul>
                 <li>Matt Hughes</li>
                 
@@ -13,18 +13,28 @@ export default function Header() {
                 <li>matthew.lhCA@gmail.com</li>
             </ul>
         </div>   */}
-        <div id="navbar">
-            <br></br><br></br>
-            <div id="table">
-            <ul>
-                <li><Link to="/">about</Link></li>
-                
-                <li><Link to="/projects">projects</Link></li>
-                
-                <li><Link to="/contact">contact</Link></li>
-            </ul>
-            </div>
+      <div id="navbar">
+        <br></br>
+        <br></br>
+        <div id="table">
+          <ul>
+            <li>
+              <Link to="/">about</Link>
+            </li>
+
+            <li>
+              <Link to="/projects">projects</Link>
+            </li>
+
+            <li>
+              <Link to="/contact">contact</Link>
+            </li>
+            <li>
+              <Link to="/uses">uses</Link>
+            </li>
+          </ul>
         </div>
+      </div>
     </header>
-  )
+  );
 }
