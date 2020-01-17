@@ -58,7 +58,7 @@ function App() {
                       </a>
 
                       <a
-                        href="https://www.linkedin.com/in/matthew-hughes-62795594/"
+                        href="https://www.linkedin.com/in/matthughes-dev/"
                         rel="noopener noreferrer"
                         target="_blank"
                       >
@@ -71,7 +71,7 @@ function App() {
                       </a>
                       <br />
                       <a
-                        href="https://docs.google.com/document/d/1LPr_gMxdj0CbRf6HNA6ULWlNbkv954gObCgyODMJtCM/edit?usp=sharing"
+                        href="https://drive.google.com/file/d/1ox_k2bmHy-TqKIaXwmysbkN0rrDTlkFF/view?usp=sharing"
                         rel="noopener noreferrer"
                         target="_blank"
                       >
