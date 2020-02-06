@@ -1,6 +1,7 @@
 import React from 'react';
 import twitterIcon from '../../twitterIcon.png';
 import linkedinIcon from '../../linkedinIcon.png';
+import githubIcon from '../../githubIcon.svg';
 
 export default function Contact() {
 	return (
@@ -18,6 +19,13 @@ export default function Contact() {
 				target="_blank"
 			>
 				<img src={twitterIcon} width="50" alt="Twitter" />
+			</a>
+			<a
+				href="https://github.com/zeepk"
+				rel="noopener noreferrer"
+				target="_blank"
+			>
+				<img className="social" src={githubIcon} width="60" alt="Github" />
 			</a>
 
 			<a

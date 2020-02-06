@@ -8,6 +8,7 @@ import Uses from './components/pages/Uses';
 import me from './me.jpg';
 import twitterIcon from './twitterIcon.png';
 import linkedinIcon from './linkedinIcon.png';
+import githubIcon from './githubIcon.svg';
 
 function App() {
 	return (
@@ -56,6 +57,18 @@ function App() {
 												/>
 											</a>
 
+											<a
+												href="https://github.com/zeepk"
+												rel="noopener noreferrer"
+												target="_blank"
+											>
+												<img
+													className="social"
+													src={githubIcon}
+													width="60"
+													alt="Github"
+												/>
+											</a>
 											<a
 												href="https://www.linkedin.com/in/matthughes-dev/"
 												rel="noopener noreferrer"
