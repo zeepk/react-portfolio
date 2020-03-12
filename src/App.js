@@ -12,7 +12,7 @@ import githubIcon from "./githubIcon.svg";
 import ReactGA from "react-ga";
 
 function initializeReactGA() {
-  ReactGA.initialize("UA-123791717-1");
+  ReactGA.initialize("UA-160538981-1");
   ReactGA.pageview("/homepage");
 }
 
