@@ -15,6 +15,7 @@ function initializeReactGA() {
   ReactGA.initialize("UA-160538981-1");
   ReactGA.pageview("/homepage");
 }
+initializeReactGA();
 
 function App() {
   return (
