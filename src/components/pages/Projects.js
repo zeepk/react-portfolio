@@ -58,7 +58,20 @@ export default function Projects() {
 					<br></br>
 				</div>
 				<div></div>
-
+				<div></div>
+				<div className="projects-grid-item">
+					<Fade left>
+						<Project
+							title="In Progress: Payment Manager"
+							image_source={require('../../images/payments.PNG')}
+							image_path="https://payment-manager-test.herokuapp.com"
+							description="A project I created while learning Redux and Authentication. It simply allows the user to register and login/logout. They can add events to their account and then see them again when they revisit the site and login."
+							tech="React + Redux, Django + DRF, JavaScript, HTML, CSS"
+						/>
+					</Fade>
+					<br></br>
+				</div>
+				<div></div>
 				<div></div>
 				<div className="projects-grid-item">
 					<Fade left>
