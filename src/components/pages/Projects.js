@@ -62,11 +62,11 @@ export default function Projects() {
 				<div className="projects-grid-item">
 					<Fade left>
 						<Project
-							title="In Progress: Payment Manager"
-							image_source={require('../../images/payments.PNG')}
-							image_path="https://payment-manager-test.herokuapp.com"
-							description="A project I created while learning Redux and Authentication. It simply allows the user to register and login/logout. They can add events to their account and then see them again when they revisit the site and login."
-							tech="React + Redux, Django + DRF, JavaScript, HTML, CSS"
+							title="Tech Support Site"
+							image_source={require('../../images/superpc.png')}
+							image_path="https://techsupportsite.netlify.com/"
+							description="This is a template site I created to serve as a foundation for a tech support company website."
+							tech="React, JavaScript, HTML, CSS"
 						/>
 					</Fade>
 					<br></br>
@@ -76,11 +76,11 @@ export default function Projects() {
 				<div className="projects-grid-item">
 					<Fade left>
 						<Project
-							title="Tech Support Site"
-							image_source={require('../../images/superpc.png')}
-							image_path="https://techsupportsite.netlify.com/"
-							description="This is a template site I created to serve as a foundation for a tech support company website."
-							tech="React, JavaScript, HTML, CSS"
+							title="In Progress: Payment Manager"
+							image_source={require('../../images/payments.PNG')}
+							image_path="https://payment-manager-test.herokuapp.com"
+							description="A project I created while learning Redux and Authentication. It simply allows the user to register and login/logout. They can add events to their account and then see them again when they revisit the site and login."
+							tech="React + Redux, Django + DRF, JavaScript, HTML, CSS"
 						/>
 					</Fade>
 					<br></br>
