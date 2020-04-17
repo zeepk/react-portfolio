@@ -8,7 +8,7 @@ export default function Contact() {
 		<div id="contactClass">
 			<br></br>
 			<br></br>
-			<h1>Matthew Hughes</h1>
+			<h1>Matt Hughes</h1>
 			<h3>(925) 963 3487</h3>
 			<a href="mailto:matt@matthughes.dev?Subject=Hello%20there!" target="_top">
 				<h3>matt@matthughes.dev</h3>
