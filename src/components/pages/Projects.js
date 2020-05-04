@@ -17,11 +17,25 @@ export default function Projects() {
 				<div className="projects-grid-item">
 					<Fade left>
 						<Project
+							title="Animal Crossing Wildlife Tracker"
+							image_source={require('../../images/wildlife.png')}
+							image_path="https://acwildlife.com/"
+							description="A project I made for video game players to track the fish and bugs caught in-game. Uses local storage to save entries for each user. Material UI and Prime React for the front end. Feathes images from external API."
+							tech="React, JavaScript, HTML, CSS, Material UI, Prime React, Netlify"
+						/>
+					</Fade>
+					<br></br>
+				</div>
+				<div></div>
+				<div></div>
+				<div className="projects-grid-item">
+					<Fade left>
+						<Project
 							title="Game Server Webpage"
 							image_source={require('../../images/arma.PNG')}
 							image_path="https://arma-homepage-demo.herokuapp.com/"
 							description="A project I created as a landing page for a game server. The client provided a layout that I was able to replicate. I worked with the client throughout the process to deliver a product that exceeds expectations. The site itself is built with a React front end and a Django back end. It uses Django REST Framework to communicate between the front and back. Redux is used to maintain state for the application and store images. The application is currently hosted on Heroku. The site administrator can use the Django Admin page to add Patch Notes and other text entries to display on the front end."
-							tech="React + Redux, Django + DRF, JavaScript, HTML, CSS"
+							tech="React + Redux, Django + DRF, JavaScript, HTML, CSS, Prime React, Heroku"
 						/>
 					</Fade>
 					<br></br>
