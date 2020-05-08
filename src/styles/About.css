@@ -1,0 +1,21 @@
+.about-container {
+	margin: 0 auto 0 auto;
+	padding-top: 10vh;
+	width: 75vw;
+	height: 75vh;
+}
+.grid-item {
+	text-align: center;
+	border: 1px solid red;
+}
+.me-image {
+	max-width: 35vw;
+}
+.about-text-container {
+	text-align: left;
+	font-size: 20px;
+}
+.MuiGrid-spacing-xs-3 {
+	width: 100% !important;
+	margin: 0 !important;
+}

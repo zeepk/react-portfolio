@@ -1,0 +1,32 @@
+:root {
+	--main-bg-color: rgb(20, 20, 48);
+	background-color: var(--main-bg-color);
+	/* background-color: green; */
+}
+.container {
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+.projects-container {
+	width: 90vw;
+	margin: 0 auto;
+}
+.blinker {
+	animation: blinker 1s linear infinite;
+	width: 100vw;
+	height: 90%;
+	width: 100%;
+	filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+	z-index: 0;
+}
+
+@keyframes blinker {
+	95% {
+		opacity: 0;
+	}
+}
+.line1 {
+	stroke: white;
+	stroke-width: 3px;
+}

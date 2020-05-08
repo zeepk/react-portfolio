@@ -1,0 +1,7 @@
+.appbar {
+	background-color: transparent !important;
+	margin-top: 10vh;
+}
+.MuiPaper-elevation4 {
+	box-shadow: none !important;
+}
