@@ -88,7 +88,8 @@ class Container extends Component {
 						</Grid>
 					</Grid>
 				</div>
-				<form name="contact" method="POST" data-netlify="true">
+				<form name="contact" method="post">
+					<input type="hidden" name="form-name" value="contact" />
 					<p>
 						<label>
 							Your Name: <input type="text" name="name" />
@@ -97,15 +98,6 @@ class Container extends Component {
 					<p>
 						<label>
 							Your Email: <input type="email" name="email" />
-						</label>
-					</p>
-					<p>
-						<label>
-							Your Current Role:
-							<select name="role[]" multiple>
-								<option value="leader">Leader</option>
-								<option value="follower">Follower</option>
-							</select>
 						</label>
 					</p>
 					<p>
