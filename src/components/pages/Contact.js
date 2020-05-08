@@ -49,7 +49,8 @@ export default function Contact() {
 				or other questions.
 			</p>
 			<p>I look forward to hearing from you!</p>
-			<form name="contact" method="POST" data-netlify="true">
+			<form name="contact" method="post" netlify netlify-honeypot="bot-field">
+				<input type="hidden" name="form-name" value="contact" />
 				<p>
 					<label>
 						Your Name: <input type="text" name="name" />
@@ -58,15 +59,6 @@ export default function Contact() {
 				<p>
 					<label>
 						Your Email: <input type="email" name="email" />
-					</label>
-				</p>
-				<p>
-					<label>
-						Your Current Role:
-						<select name="role[]" multiple>
-							<option value="leader">Leader</option>
-							<option value="follower">Follower</option>
-						</select>
 					</label>
 				</p>
 				<p>
