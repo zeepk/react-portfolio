@@ -102,9 +102,9 @@ function App() {
 							</React.Fragment>
 						)}
 					/>
-					<Route path="/Contact" component={Contact} />
-					<Route path="/Projects" component={Projects} />
-					<Route path="/Uses" component={Uses} />
+					<Route path="/contact" component={Contact} />
+					<Route path="/projects" component={Projects} />
+					<Route path="/uses" component={Uses} />
 					<link
 						href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
 						rel="stylesheet"
