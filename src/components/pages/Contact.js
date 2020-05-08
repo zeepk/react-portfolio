@@ -49,7 +49,13 @@ export default function Contact() {
 				or other questions.
 			</p>
 			<p>I look forward to hearing from you!</p>
-			<form name="contact" method="post" netlify netlify-honeypot="bot-field">
+			<form
+				name="contact"
+				method="post"
+				netlify
+				netlify-honeypot="bot-field"
+				data-netlify={true}
+			>
 				<input type="hidden" name="form-name" value="contact" />
 				<p>
 					<label>
