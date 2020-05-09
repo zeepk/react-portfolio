@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/Form.css';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import TextField from '@material-ui/core/TextField';
+import Input from '@material-ui/core/Input';
 class Form extends Component {
 	render() {
 		return (
@@ -13,7 +13,7 @@ class Form extends Component {
 							<input type="hidden" name="form-name" value="contact" />
 							<p>
 								<label>
-									Your Name: <input type="text" name="name" />
+									Your Name: <Input placeholder="Placeholder" name="name" />
 								</label>
 							</p>
 							<p>
@@ -23,12 +23,8 @@ class Form extends Component {
 							</p>
 							<p>
 								<label>
-									{/* Message: <textarea name="message"></textarea> */}
-									<TextField
-										id="outlined-basic"
-										label="Message"
-										variant="outlined"
-									/>
+									Message:
+									<textarea name="message"></textarea>
 								</label>
 							</p>
 							<p>
