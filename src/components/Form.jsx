@@ -2,23 +2,17 @@ import React, { Component } from 'react';
 import '../styles/Form.css';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-const myFunction = (e) => {
-	e.preventDefault();
-	alert('submitted');
-};
 class Form extends Component {
+	myFunction = (e) => {
+		alert('submitted');
+		e.preventDefault();
+	};
 	render() {
 		return (
 			<div className="form-container">
 				<Card className="card-container">
 					<CardContent>
-						<form
-							name="contact"
-							method="post"
-							onSubmit={(e) => {
-								e.preventDefault();
-							}}
-						>
+						<form name="contact" method="post" onSubmit={this.myFunction}>
 							<input type="hidden" name="form-name" value="contact" />
 							<p>
 								<label>
@@ -26,9 +20,9 @@ class Form extends Component {
 								</label>
 							</p>
 							<p>
-								<label>
+								{/* <label>
 									Your Email: <input type="email" name="email" />
-								</label>
+								</label> */}
 							</p>
 							<p>
 								<label>
@@ -37,13 +31,6 @@ class Form extends Component {
 							</p>
 							<p>
 								<button type="submit">Send</button>
-								<button
-									type="button"
-									color="primary"
-									onClick={this.onTestClick}
-								>
-									primary
-								</button>
 							</p>
 						</form>
 					</CardContent>
