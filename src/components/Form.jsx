@@ -2,11 +2,8 @@ import React, { Component } from 'react';
 import '../styles/Form.css';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import TextField from '@material-ui/core/TextField';
 class Form extends Component {
-	myFunction = (e) => {
-		alert('submitted');
-		e.preventDefault();
-	};
 	render() {
 		return (
 			<div className="form-container">
@@ -20,13 +17,18 @@ class Form extends Component {
 								</label>
 							</p>
 							<p>
-								{/* <label>
+								<label>
 									Your Email: <input type="email" name="email" />
-								</label> */}
+								</label>
 							</p>
 							<p>
 								<label>
-									Message: <textarea name="message"></textarea>
+									{/* Message: <textarea name="message"></textarea> */}
+									<TextField
+										id="outlined-basic"
+										label="Message"
+										variant="outlined"
+									/>
 								</label>
 							</p>
 							<p>
