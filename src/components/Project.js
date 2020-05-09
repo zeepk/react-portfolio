@@ -8,10 +8,6 @@ function Project(props) {
 		maxWidth: '100%',
 	};
 	return (
-		// props:
-		// filename
-		// title
-		// body
 		<div className="project-container" style={style}>
 			<a
 				href={props.link}
@@ -20,7 +16,7 @@ function Project(props) {
 				rel="noopener noreferrer"
 			>
 				<img
-					src={`https://polar-scrubland-49858.herokuapp.com/media/${props.filename}`}
+					src={props.filename}
 					alt="project"
 					className="project-image"
 					style={imageStyle}
