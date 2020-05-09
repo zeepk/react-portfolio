@@ -12,7 +12,7 @@ class Form extends Component {
 			<div className="form-container">
 				<Card className="card-container">
 					<CardContent>
-						<form name="contact" method="post" onSubmit={this.myFunction}>
+						<form name="contact" method="post">
 							<input type="hidden" name="form-name" value="contact" />
 							<p>
 								<label>
