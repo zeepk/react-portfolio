@@ -1,4 +1,10 @@
 .form-container {
-	margin: 0 auto;
 	text-align: center;
+	z-index: 100 !important;
+	padding: 5vh 0;
+}
+.card-container {
+	text-align: left;
+	margin: 0 auto;
+	width: 30vw;
 }

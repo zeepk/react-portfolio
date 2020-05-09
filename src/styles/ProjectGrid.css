@@ -17,5 +17,6 @@
 	text-align: center;
 	color: white;
 	font-style: italic;
+	text-decoration: underline;
 	font-size: calc(28px + (60 - 28) * ((100vw - 300px) / (1600 - 300)));
 }
