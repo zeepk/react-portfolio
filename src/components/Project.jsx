@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Project.css';
 function Project(props) {
 	const style = {
-		border: '1px solid red',
+		border: '1px solid var(--outline-color)',
 	};
 	const imageStyle = {
 		maxWidth: '100%',

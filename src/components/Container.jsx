@@ -3,6 +3,8 @@ import '../styles/Container.css';
 import About from './About';
 import Form from './Form';
 import ProjectGrid from './ProjectGrid';
+import Focus from './Focus';
+import OtherThings from './OtherThings';
 
 class Container extends Component {
 	constructor(props) {
@@ -38,9 +40,9 @@ class Container extends Component {
 					<line className="line1" x1="40%" y1="30%" x2="50%" y2="50%" />
 					<line className="line1" x1="50%" y1="50%" x2="60%" y2="30%" />
 				</svg>
-
+				<Focus />
 				<ProjectGrid />
-
+				<OtherThings />
 				<Form />
 			</div>
 		);

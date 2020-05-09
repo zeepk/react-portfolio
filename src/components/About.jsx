@@ -7,9 +7,9 @@ class About extends Component {
 		return (
 			<div className="about-container">
 				<Grid container spacing={3}>
-					<Grid className="grid-item" item xs={12} sm={6}>
+					<Grid className="grid-item grid-text" item xs={12} sm={6}>
 						<div className="about-text-container">
-							<h1>Hello! I'm Matt Hughes ~</h1>
+							<h1>Hello! I'm Matt Hughes</h1>
 							<p className="about-text">
 								I'm an enthusiastic, customer-focused full stack developer.
 							</p>

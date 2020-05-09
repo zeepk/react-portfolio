@@ -1,0 +1,12 @@
+.focus-container {
+	padding: 2vh 0;
+	background-color: #d8d8f6;
+	color: black;
+}
+.focus-icon {
+	font-size: 60px;
+	color: #3066a7;
+}
+.focus-text {
+	padding: 0 10px 30px 10px;
+}

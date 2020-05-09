@@ -1,5 +1,6 @@
 :root {
-	--main-bg-color: rgb(20, 20, 48);
+	--main-bg-color: rgb(52, 63, 75);
+	--outline-color: transparent;
 	background-color: black;
 	/* background-color: green; */
 }
@@ -67,7 +68,7 @@
 	background: transparent
 		url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png')
 		repeat;
-	background-size: 1000px 1000px;
+	background-size: 3000px 3000px;
 	position: fixed;
 	right: 0;
 	top: 0;

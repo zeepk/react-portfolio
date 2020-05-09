@@ -13,7 +13,8 @@ export default class ProjectGrid extends Component {
 	render() {
 		return (
 			<div className="projects-container">
-				<Grid container spacing={3}>
+				<h1 className="project-grid-title">Here are some examples</h1>
+				<Grid className="outer-grid" container spacing={3}>
 					<Grid className="project-grid-item" item xs={12} sm={6}>
 						<Project
 							title="Game Server Homepage"
