@@ -1,0 +1,34 @@
+.other-things-container {
+	background-color: #d8d8f646;
+}
+.other-card-container {
+	text-align: left;
+	margin: 0 auto;
+	height: 400px;
+	background-color: rgb(29, 29, 29) !important;
+	color: white !important;
+	border: solid 1px rgb(160, 160, 160);
+	overflow: auto !important;
+}
+.list-header {
+	background-color: rgb(29, 29, 29) !important;
+	color: white !important;
+	font-size: 20px !important;
+	display: flex;
+	align-items: center;
+	margin: 0 0 2vh 0 !important;
+}
+.github-icon {
+	max-width: 30px;
+	padding-right: 10px;
+}
+.MuiListItemText-primary {
+	font-size: 20px !important;
+	color: white !important;
+}
+.MuiListItemText-secondary {
+	color: rgb(207, 207, 207) !important;
+}
+.github-title {
+	margin: 0 !important;
+}

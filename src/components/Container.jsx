@@ -26,7 +26,7 @@ class Container extends Component {
 				didScroll: true,
 			});
 		}
-		console.log(currentScrollPos);
+		// console.log(currentScrollPos);
 	};
 
 	render() {
