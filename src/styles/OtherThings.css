@@ -16,19 +16,32 @@
 	font-size: 20px !important;
 	display: flex;
 	align-items: center;
-	margin: 0 0 2vh 0 !important;
+	/* margin: 0 0 2vh 0 !important; */
+	text-decoration: none !important;
+}
+.list-header:hover {
+	background-color: rgb(53, 53, 53) !important;
 }
 .github-icon {
 	max-width: 30px;
 	padding-right: 10px;
 }
 .MuiListItemText-primary {
-	font-size: 20px !important;
+	font-size: 15px !important;
 	color: white !important;
 }
 .MuiListItemText-secondary {
+	font-size: 10px !important;
 	color: rgb(207, 207, 207) !important;
 }
 .github-title {
-	margin: 0 !important;
+	vertical-align: middle !important;
+	margin: 5px 0 0 0 !important;
+}
+.MuiButtonBase-root:hover {
+	background-color: rgb(53, 53, 53) !important;
+}
+.twitch-clip {
+	display: flex !important;
+	align-items: center !important;
 }

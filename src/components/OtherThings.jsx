@@ -6,6 +6,10 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import '../styles/OtherThings.css';
 import ListSubheader from '@material-ui/core/ListSubheader';
+import Python from '../images/python.png';
+import JS from '../images/js.png';
+import HTML from '../images/html5.png';
+import Twitch from '../images/twitch.gif';
 
 import GithubIcon from '../images/github.png';
 
@@ -32,14 +36,22 @@ export default class OtherThings extends Component {
 			a.updated_at < b.updated_at ? 1 : -1
 		);
 		const sorted_github_data = github_data.map((repo) => {
-			let date = new Date(repo.updated_at);
-
+			const date = new Date(repo.updated_at);
+			let icon = repo.language;
+			if (repo.language === 'JavaScript') {
+				icon = <img src={JS} className="github-icon" alt="javascript" />;
+			} else if (repo.language === 'Python' || repo.language === 'Tcl') {
+				icon = <img src={Python} className="github-icon" alt="python" />;
+			} else if (repo.language === 'HTML' || repo.language === 'CSS') {
+				icon = <img src={HTML} className="github-icon" alt="html" />;
+			}
 			return (
-				<ListItem button component="a" href={repo.html_url}>
+				<ListItem button component="a" href={repo.html_url} target="_blank">
 					<ListItemText
 						primary={repo.name}
 						secondary={`Last updated: ${date.toDateString()}`}
 					/>
+					{icon}
 				</ListItem>
 			);
 		});
@@ -49,7 +61,12 @@ export default class OtherThings extends Component {
 					<Grid className="grid-item" item xs={12} sm={4}>
 						<Card className="other-card-container">
 							<List className="list">
-								<ListSubheader className="list-header">
+								<ListSubheader
+									className="list-header"
+									component="a"
+									href="https://www.github.com/zeepk"
+									target="_blank"
+								>
 									<img src={GithubIcon} className="github-icon" alt="github" />
 									<h2 className="github-title">Github</h2>
 								</ListSubheader>
@@ -57,8 +74,13 @@ export default class OtherThings extends Component {
 							</List>
 						</Card>
 					</Grid>
-					<Grid className="grid-item" item xs={12} sm={4}></Grid>
-					<Grid className="grid-item" item xs={12} sm={4}></Grid>
+					<Grid className="grid-item" item xs={12} sm={8}>
+						<Card className="other-card-container">
+							<div className="twitch-clip">
+								<img src={Twitch} className="twitch-gif" alt="twitch clip" />
+							</div>
+						</Card>
+					</Grid>
 				</Grid>
 			</div>
 		);
