@@ -4,6 +4,7 @@ import About from './About';
 import ProjectGrid from './ProjectGrid';
 import Focus from './Focus';
 import OtherThings from './OtherThings';
+import Fade from 'react-reveal/Fade';
 
 class Container extends Component {
 	constructor(props) {
@@ -33,8 +34,9 @@ class Container extends Component {
 			<div className="container">
 				<div class="background-container"></div>
 				<div class="clouds"></div>
-				{/* <Header /> */}
-				<About />
+				<Fade>
+					<About />
+				</Fade>
 				<svg className="blinker" style={{ opacity: this.state.arrow }}>
 					<line className="line1" x1="40%" y1="30%" x2="50%" y2="50%" />
 					<line className="line1" x1="50%" y1="50%" x2="60%" y2="30%" />
