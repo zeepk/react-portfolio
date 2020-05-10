@@ -42,6 +42,7 @@
 	background-color: rgb(53, 53, 53) !important;
 }
 .twitch-clip {
-	display: flex !important;
-	align-items: center !important;
+}
+.twitch-gif {
+	width: 100%;
 }

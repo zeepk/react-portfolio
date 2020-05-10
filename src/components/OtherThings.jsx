@@ -77,7 +77,7 @@ export default class OtherThings extends Component {
 					<Grid className="grid-item" item xs={12} sm={8}>
 						<Card className="other-card-container">
 							<div className="twitch-clip">
-								<img src={Twitch} className="twitch-gif" alt="twitch clip" />
+								{/* <img src={Twitch} className="twitch-gif" alt="twitch clip" /> */}
 							</div>
 						</Card>
 					</Grid>
