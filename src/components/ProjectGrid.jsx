@@ -8,7 +8,7 @@ import Woodcut from '../images/woodcut2.png';
 import Arma from '../images/arma.png';
 import Payments from '../images/payments.png';
 import '../styles/ProjectGrid.css';
-import Flip from 'react-reveal/Flip';
+import Fade from 'react-reveal/Fade';
 
 export default class ProjectGrid extends Component {
 	render() {
@@ -17,64 +17,64 @@ export default class ProjectGrid extends Component {
 				<h1 className="project-grid-title">Here are some examples</h1>
 				<Grid className="outer-grid" container spacing={3}>
 					<Grid className="project-grid-item" item xs={12} sm={6}>
-						<Flip top>
+						<Fade top>
 							<Project
 								title="Game Server Homepage"
 								body="Site for users to see news and updates for a video game server. Owner can update via Django Admin."
 								filename={Arma}
 								link="https://arma-homepage-demo.herokuapp.com/"
 							/>
-						</Flip>
+						</Fade>
 					</Grid>
 					<Grid className="project-grid-item" item xs={12} sm={6}>
-						<Flip top>
+						<Fade top>
 							<Project
 								title="Animal Crossing Wildlife"
 								body="Front End site for gamers to track achievements and see wildlife information. Saves progress using local storage."
 								filename={Wildlife}
 								link="https://www.acwildlife.com"
 							/>
-						</Flip>
+						</Fade>
 					</Grid>
 					<Grid className="project-grid-item" item xs={12} sm={6}>
-						<Flip top>
+						<Fade top>
 							<Project
 								title="Podcast Landing Page"
 								body="Landing site for information regarding an EMT podcast. Uses SVG for the background animation."
 								filename={EMT}
 								link="https://emtcast2.netlify.app/"
 							/>
-						</Flip>
+						</Fade>
 					</Grid>
 					<Grid className="project-grid-item" item xs={12} sm={6}>
-						<Flip top>
+						<Fade top>
 							<Project
 								title="Consultancy Support Site"
 								body="Business home page for a sample tech support company. Uses animations and parallax imagery for the background."
 								filename={SuperPC}
 								link="https://techsupportsite.netlify.app/"
 							/>
-						</Flip>
+						</Fade>
 					</Grid>
 					<Grid className="project-grid-item" item xs={12} sm={6}>
-						<Flip top>
+						<Fade top>
 							<Project
 								title="Payment Manager Web App"
 								body="In-progress app for users to manage payments. User registration and auth is done with Django and React-Redux."
 								filename={Payments}
 								link="https://payment-manager-test.herokuapp.com"
 							/>
-						</Flip>
+						</Fade>
 					</Grid>
 					<Grid className="project-grid-item" item xs={12} sm={6}>
-						<Flip top>
+						<Fade top>
 							<Project
 								title="Hiscore Tracker"
 								body="Site that pulls user data and profile image from an external API based on user search. Organizes data on front end to display."
 								filename={Woodcut}
 								link="https://woodcut.info/rs3/zee_pk"
 							/>
-						</Flip>
+						</Fade>
 					</Grid>
 				</Grid>
 			</div>

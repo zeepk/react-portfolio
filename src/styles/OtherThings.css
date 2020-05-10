@@ -20,7 +20,7 @@
 	/* margin: 0 0 2vh 0 !important; */
 	text-decoration: none !important;
 }
-.MuiButtonBase-root:nth-child(odd) {
+.MuiListItem-root:nth-child(odd) {
 	background-color: rgb(37, 37, 37) !important;
 }
 .list-header:hover {
@@ -47,4 +47,7 @@
 }
 .MuiList-padding {
 	padding-top: 0 !important;
+}
+.MuiButton-root {
+	text-transform: none !important;
 }

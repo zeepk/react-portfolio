@@ -5,6 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Input from '@material-ui/core/Input';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import Linkedin from '../images/linkedinIcon.png';
 class Form extends Component {
 	render() {
 		return (
@@ -14,6 +15,7 @@ class Form extends Component {
 						<h1 className="form-title" style={{ textAlign: 'center' }}>
 							Get in touch!
 						</h1>
+
 						<form name="contact" method="post">
 							<input type="hidden" name="form-name" value="contact" />
 							<div className="form-item">
@@ -41,6 +43,7 @@ class Form extends Component {
 								<Button
 									type="submit"
 									variant="contained"
+									className="submit-button"
 									style={{ color: 'white' }}
 								>
 									Send
@@ -54,6 +57,22 @@ class Form extends Component {
 								</Button>
 							</div>
 						</form>
+						<div className="form-item" style={{ textAlign: 'center' }}>
+							<Button
+								className="linkedin-button"
+								variant="contained"
+								component="a"
+								href="https://www.linkedin.com/in/matthughes-dev/"
+								target="_blank"
+							>
+								Or, connect with me on
+								<img
+									src={Linkedin}
+									alt="linkedin logo"
+									className="linkedin-icon"
+								/>
+							</Button>
+						</div>
 					</CardContent>
 				</Card>
 			</div>
