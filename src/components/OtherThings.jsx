@@ -9,7 +9,8 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import Python from '../images/python.png';
 import JS from '../images/js.png';
 import HTML from '../images/html5.png';
-import Twitch from '../images/twitch.gif';
+import Form from './Form';
+// import Twitch from '../images/twitch.gif';
 
 import GithubIcon from '../images/github.png';
 
@@ -58,6 +59,8 @@ export default class OtherThings extends Component {
 		return (
 			<div className="other-things-container">
 				<Grid container spacing={3}>
+					<Grid className="grid-item" item xs={12} sm={2}></Grid>
+
 					<Grid className="grid-item" item xs={12} sm={4}>
 						<Card className="other-card-container">
 							<List className="list">
@@ -74,13 +77,10 @@ export default class OtherThings extends Component {
 							</List>
 						</Card>
 					</Grid>
-					<Grid className="grid-item" item xs={12} sm={8}>
-						<Card className="other-card-container">
-							<div className="twitch-clip">
-								{/* <img src={Twitch} className="twitch-gif" alt="twitch clip" /> */}
-							</div>
-						</Card>
+					<Grid className="grid-item" item xs={12} sm={4}>
+						<Form />
 					</Grid>
+					<Grid className="grid-item" item xs={12} sm={2}></Grid>
 				</Grid>
 			</div>
 		);

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Container.css';
 import About from './About';
-import Form from './Form';
 import ProjectGrid from './ProjectGrid';
 import Focus from './Focus';
 import OtherThings from './OtherThings';
@@ -43,7 +42,6 @@ class Container extends Component {
 				<Focus />
 				<ProjectGrid />
 				<OtherThings />
-				<Form />
 			</div>
 		);
 	}

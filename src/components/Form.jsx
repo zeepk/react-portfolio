@@ -38,45 +38,25 @@ class Form extends Component {
 							</div>
 
 							<div className="form-item" style={{ textAlign: 'center' }}>
-								<Button type="submit" variant="contained">
-									Send 📬
+								<Button
+									type="submit"
+									variant="contained"
+									style={{ color: 'white' }}
+								>
+									Send
+									<span
+										role="img"
+										aria-label="send"
+										style={{ paddingLeft: '5px' }}
+									>
+										📬
+									</span>
 								</Button>
 							</div>
 						</form>
 					</CardContent>
-					{/* <CardActions>
-						<Button size="small">Learn More</Button>
-					</CardActions> */}
 				</Card>
 			</div>
-			//     <Card >
-			// 	<CardContent>
-			// 	<form name="contact" method="post">
-			// 		<input type="hidden" name="form-name" value="contact" />
-			// 		<p>
-			// 			<label>
-			// 				Your Name: <input type="text" name="name" />
-			// 			</label>
-			// 		</p>
-			// 		<p>
-			// 			<label>
-			// 				Your Email: <input type="email" name="email" />
-			// 			</label>
-			// 		</p>
-			// 		<p>
-			// 			<label>
-			// 				Message: <textarea name="message"></textarea>
-			// 			</label>
-			// 		</p>
-			// 		<p>
-			// 			<button type="submit">Send</button>
-			// 		</p>
-			// 	</form>
-			// 	</CardContent>
-			// 	<CardActions>
-			// 	  <Button size="small">Learn More</Button>
-			// 	</CardActions>
-			//   </Card>
 		);
 	}
 }
