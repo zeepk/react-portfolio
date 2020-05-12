@@ -11,12 +11,16 @@
 }
 
 .blinker {
-	animation: blinker 1s linear infinite;
+	/* animation: blinker 1s linear infinite; */
 	width: 100vw;
 	height: 90%;
 	width: 100%;
 	filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
 	z-index: 0;
+}
+
+.bottom-text {
+	font-style: italic;
 }
 
 @keyframes blinker {
@@ -74,12 +78,25 @@
 	top: 0;
 	bottom: 0;
 	z-index: -1;
+	opacity: 0.8;
 
 	-moz-animation: move-background 150s linear infinite;
 	-ms-animation: move-background 150s linear infinite;
 	-o-animation: move-background 150s linear infinite;
 	-webkit-animation: move-background 150s linear infinite;
 	animation: move-background 150s linear infinite;
+}
+.stars {
+	background: black
+		url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	z-index: -2;
+	position: fixed;
 }
 .background-container {
 	position: fixed;
