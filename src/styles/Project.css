@@ -55,6 +55,8 @@
 	overflow: hidden;
 	transition: all 0.2s ease-in-out;
 	width: 100%;
-	max-height: 40vh;
+	height: 100%;
+	max-height: 35vh;
 	/* box-shadow: 5px 10px 8px #181818b0; */
+	object-fit: cover;
 }

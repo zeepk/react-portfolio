@@ -9,41 +9,45 @@ import Fade from 'react-reveal/Fade';
 class Container extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { arrow: 0.2, didScroll: false };
+		//creates a reference for your element to use
+		this.projectRef = React.createRef();
+		this.contactRef = React.createRef();
 	}
-	componentDidMount() {
-		window.addEventListener('scroll', this.handleScroll);
-	}
-	handleScroll = () => {
-		const currentScrollPos = window.pageYOffset;
-		if (currentScrollPos < 300 && !this.state.didScroll) {
-			this.setState({
-				arrow: 1 / currentScrollPos,
+
+	handleOnClick = (event) => {
+		console.log(event.currentTarget.innerText);
+
+		if (event.currentTarget.innerText === 'PROJECTS') {
+			this.projectRef.current.scrollIntoView({
+				behavior: 'smooth',
+				block: 'nearest',
 			});
-		} else {
-			this.setState({
-				arrow: 0,
-				didScroll: true,
+		} else if (event.currentTarget.innerText === 'CONTACT') {
+			this.contactRef.current.scrollIntoView({
+				behavior: 'smooth',
+				block: 'nearest',
 			});
 		}
-		// console.log(currentScrollPos);
 	};
-
 	render() {
 		return (
 			<div className="container">
 				<div class="background-container"></div>
 				<div class="clouds"></div>
 				<Fade>
-					<About />
+					<About projectScroll={this.handleOnClick} />
 				</Fade>
-				<svg className="blinker" style={{ opacity: this.state.arrow }}>
+				{/* <svg className="blinker" style={{ opacity: this.state.arrow }}>
 					<line className="line1" x1="40%" y1="30%" x2="50%" y2="50%" />
 					<line className="line1" x1="50%" y1="50%" x2="60%" y2="30%" />
-				</svg>
+				</svg> */}
 				<Focus />
-				<ProjectGrid />
-				<OtherThings />
+				<div ref={this.projectRef}>
+					<ProjectGrid />
+				</div>
+				<div ref={this.contactRef}>
+					<OtherThings />
+				</div>
 			</div>
 		);
 	}

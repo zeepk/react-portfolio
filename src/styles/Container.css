@@ -10,20 +10,20 @@
 	width: 100%;
 }
 
-.blinker {
+/* .blinker {
 	animation: blinker 1s linear infinite;
 	width: 100vw;
 	height: 90%;
 	width: 100%;
 	filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
 	z-index: 0;
-}
+} */
 
-@keyframes blinker {
+/* @keyframes blinker {
 	95% {
 		opacity: 0;
 	}
-}
+} */
 .line1 {
 	stroke: white;
 	stroke-width: 3px;
