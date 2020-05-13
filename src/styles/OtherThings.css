@@ -1,7 +1,7 @@
 .other-things-container {
-	background-color: #d8d8f646;
+	/* background-color: #d8d8f646; */
 	padding: 20vh 0;
-	height: 60vh;
+	min-height: 60vh;
 }
 .other-card-container {
 	text-align: left;

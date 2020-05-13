@@ -24,10 +24,10 @@ class About extends Component {
 						variant="extended"
 						onClick={this.props.projectScroll}
 					>
-						Projects
+						<div style={{ fontStyle: 'italic' }}>Projects</div>
 					</Fab>
 					<Fab variant="extended" onClick={this.props.projectScroll}>
-						Contact
+						<div style={{ fontStyle: 'italic' }}>Contact</div>
 					</Fab>
 				</div>
 			</div>

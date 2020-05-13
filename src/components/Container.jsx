@@ -34,6 +34,7 @@ class Container extends Component {
 			<div className="container">
 				<div class="background-container"></div>
 				<div class="clouds"></div>
+				<div class="stars"></div>
 				<Fade>
 					<About projectScroll={this.handleOnClick} />
 				</Fade>
@@ -46,7 +47,9 @@ class Container extends Component {
 					<ProjectGrid />
 				</div>
 				<div ref={this.contactRef}>
-					<OtherThings />
+					<Fade>
+						<OtherThings />
+					</Fade>
 				</div>
 			</div>
 		);

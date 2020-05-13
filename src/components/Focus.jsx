@@ -8,10 +8,10 @@ export default class Focus extends Component {
 		return (
 			<div className="focus-container">
 				<Grid container spacing={3}>
-					<Grid className="grid-item" item xs={6} sm={6}>
+					<Grid className="grid-item" item xs={12} sm={6}>
 						<img src={Me} alt="Matt Hughes" className="me-image" />
 					</Grid>
-					<Grid className="grid-item" item xs={6} sm={6}>
+					<Grid className="grid-item" item xs={12} sm={6}>
 						<Grid container spacing={3}>
 							<Grid className="grid-item" item xs={6} sm={6}>
 								<span class="material-icons focus-icon">accessibility_new</span>
