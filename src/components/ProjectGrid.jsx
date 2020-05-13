@@ -20,7 +20,7 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Game Server Homepage"
-								body="Site for users to see news and updates for a video game server. Owner can update via Django Admin."
+								body="Site for users to see news and updates for a video game server. Owner can update via Django Admin. Created based on user requirements. Designed components of page to fit a common theme."
 								filename={Arma}
 								link="https://arma-homepage-demo.herokuapp.com/"
 							/>
@@ -30,7 +30,7 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Animal Crossing Wildlife"
-								body="Front End site for gamers to track achievements and see wildlife information. Saves progress using local storage."
+								body="Front End site for gamers to track achievements and see wildlife information. Saves progress using local storage. Allows sorting and filtering based on columns."
 								filename={Wildlife}
 								link="https://www.acwildlife.com"
 							/>
@@ -40,7 +40,7 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Podcast Landing Page"
-								body="Landing site for information regarding an EMT podcast. Uses SVG for the background animation."
+								body="Landing site for information regarding an EMT podcast. Uses SVG for the background animation. Animations based on scroll and episodes called in dynamically."
 								filename={EMT}
 								link="https://emtcast2.netlify.app/"
 							/>

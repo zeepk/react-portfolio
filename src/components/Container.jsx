@@ -35,9 +35,9 @@ class Container extends Component {
 				<div class="background-container"></div>
 				<div class="clouds"></div>
 				<div class="stars"></div>
-				<Fade>
-					<About projectScroll={this.handleOnClick} />
-				</Fade>
+				{/* <Fade> */}
+				<About projectScroll={this.handleOnClick} />
+				{/* </Fade> */}
 				{/* <svg className="blinker" style={{ opacity: this.state.arrow }}>
 					<line className="line1" x1="40%" y1="30%" x2="50%" y2="50%" />
 					<line className="line1" x1="50%" y1="50%" x2="60%" y2="30%" />

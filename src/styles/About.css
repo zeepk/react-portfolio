@@ -21,6 +21,13 @@
 		0% 60%,
 		10% 20%
 	);
+	transition: all 0.15s ease-in-out !important; /* z-index: 1000; */
+	animation-name: none !important;
+}
+.me-image:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1) !important;
 }
 .about-text-container {
 	text-align: left;
