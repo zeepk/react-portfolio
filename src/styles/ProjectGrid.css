@@ -13,16 +13,16 @@
 }
 .project-grid-title {
 	transform: skewY(2deg);
-	background-color: #919483de;
+	background-color: #ebe593;
 	margin: 0;
-	padding: 7vh 0;
+	padding: 7vh 0 15vh 0;
 	text-align: center;
 	margin-bottom: -10vh;
 	margin-top: -10vh;
 }
 .project-grid-title-text {
 	transform: skewY(-2deg);
-	color: white;
+	color: black;
 	font-style: italic;
 	text-decoration: underline;
 	font-size: calc(28px + (60 - 28) * ((100vw - 300px) / (1600 - 300)));

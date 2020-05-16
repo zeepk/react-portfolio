@@ -44,6 +44,9 @@ class Container extends Component {
 				</svg> */}
 				<Focus />
 				<div ref={this.projectRef}>
+					<div className="project-grid-title">
+						<h1 className="project-grid-title-text">Here are some examples</h1>
+					</div>
 					<ProjectGrid />
 				</div>
 				<div ref={this.contactRef}>
