@@ -8,9 +8,11 @@
 	padding: 10px;
 	text-align: left;
 }
-.hover-body {
+.hover-body,
+.dev-body {
 	font-size: 20px;
 	padding-top: 30px;
+	width: 80%;
 }
 .hover-content {
 	/* display: none; */
@@ -60,3 +62,6 @@
 	/* box-shadow: 5px 10px 8px #181818b0; */
 	object-fit: cover;
 }
+/* .hover-content {
+		width: 42vw;
+	} */

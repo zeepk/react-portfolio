@@ -25,6 +25,7 @@ function Project(props) {
 					<div className="hover-text">
 						{props.title}
 						<div className="hover-body">{props.body}</div>
+						<div className="dev-body">{props.dev}</div>
 					</div>
 				</div>
 			</a>

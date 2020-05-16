@@ -19,8 +19,8 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Game Server Homepage"
-								body="Site for users to see news and updates for a video game server. Fluid design that's easy to interact with.  
-								Owner can update via Django Admin. Created based on user requirements. Designed components of page to fit a common theme."
+								body="Site for users to see news and updates for a video game server. Fluid design that's easy to interact with."
+								dev="Owner can update via Django Admin. Created based on user requirements. Designed components of page to fit a common theme."
 								filename={Arma}
 								link="https://arma-homepage-demo.herokuapp.com/"
 							/>
@@ -30,7 +30,8 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Animal Crossing Wildlife"
-								body="Front End site for gamers to track achievements and see wildlife information. Saves progress using local storage. Allows sorting and filtering based on columns."
+								body="Users can access game news and information quickly and easily. They can update their progress with a simple checkbox for a complication-free expereince. "
+								dev="Front End site for gamers to track achievements and see wildlife information. Saves progress using local storage. Allows sorting and filtering based on columns."
 								filename={Wildlife}
 								link="https://www.acwildlife.com"
 							/>
