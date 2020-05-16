@@ -19,7 +19,8 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Game Server Homepage"
-								body="Site for users to see news and updates for a video game server. Owner can update via Django Admin. Created based on user requirements. Designed components of page to fit a common theme."
+								body="Site for users to see news and updates for a video game server. Fluid design that's easy to interact with.  
+								Owner can update via Django Admin. Created based on user requirements. Designed components of page to fit a common theme."
 								filename={Arma}
 								link="https://arma-homepage-demo.herokuapp.com/"
 							/>

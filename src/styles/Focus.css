@@ -8,6 +8,10 @@
 	font-size: 100px;
 	color: #253e59;
 }
+.focus-title {
+	font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
 .focus-text {
 	padding: 0 10px 30px 10px;
+	font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
 }

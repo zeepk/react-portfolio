@@ -25,15 +25,15 @@ export default class Focus extends Component {
 									<h1 className="focus-title">Easy to Use</h1>
 									<div className="focus-text">
 										The sites I build are intuitive, never leaving guesswork to
-										the customer
+										your customer
 									</div>
 								</Grid>
 								<Grid className="grid-item" item xs={6} sm={6}>
 									<span class="material-icons focus-icon">extension</span>
 									<h1 className="focus-title">Feature Rich</h1>
 									<div className="focus-text">
-										The customers will be impressed with what they can
-										accomplish with just one website
+										Your customers will be impressed with what they can
+										accomplish with your site
 									</div>
 								</Grid>
 								<Grid className="grid-item" item xs={6} sm={6}>
