@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import EMT from '../images/podcast.png';
 import SuperPC from '../images/superpc.png';
 import Wildlife from '../images/wildlife.png';
-import Woodcut from '../images/woodcut2.png';
+import Restaurant from '../images/restaurant.png';
 import Arma from '../images/arma.png';
 import Payments from '../images/payments.png';
 import '../styles/ProjectGrid.css';
@@ -40,6 +40,17 @@ export default class ProjectGrid extends Component {
 					<Grid className="project-grid-item" item xs={12} sm={6}>
 						<Fade top>
 							<Project
+								title="Sample Restaurant Site"
+								body="Site for customers to see restaurant menu and location."
+								dev="Full stack React and Django. Menu items dynamically fetched from Django REST API. Images automatically stored in AWS S3 upon upload. Google Maps integration to show location."
+								filename={Restaurant}
+								link="https://matt-sample-restaurant.netlify.app/"
+							/>
+						</Fade>
+					</Grid>
+					<Grid className="project-grid-item" item xs={12} sm={6}>
+						<Fade top>
+							<Project
 								title="Podcast Landing Page"
 								body="Sample landing site for information regarding an EMT podcast. Uses SVG for the background animation. Animations based on scroll and episodes called in dynamically."
 								dev="Front end in React/JS. Component animations using react-reveal, play animation using vanilla JS. Created based on user requirements."
@@ -67,17 +78,6 @@ export default class ProjectGrid extends Component {
 								dev="Full stack with React and Django. User registration and auth is done with Django and React-Redux. Owner can manage users via the admin panel. "
 								filename={Payments}
 								link="https://payment-manager-test.herokuapp.com"
-							/>
-						</Fade>
-					</Grid>
-					<Grid className="project-grid-item" item xs={12} sm={6}>
-						<Fade top>
-							<Project
-								title="Hiscore Tracker"
-								body="Site that pulls user data and profile image from an external API based on user search. Organizes data on front end to display."
-								dev="Users can access two different pages for seperate games. Stats and profile image are fetched from external API."
-								filename={Woodcut}
-								link="https://woodcut.info/rs3/zee_pk"
 							/>
 						</Fade>
 					</Grid>
