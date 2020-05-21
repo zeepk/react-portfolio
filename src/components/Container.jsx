@@ -30,6 +30,11 @@ class Container extends Component {
 		}
 	};
 	render() {
+		const hr_style = {
+			width: '80vw',
+			opacity: 0.5,
+			marginBottom: '10vh',
+		};
 		return (
 			<div className="container">
 				<div class="background-container"></div>
@@ -37,12 +42,14 @@ class Container extends Component {
 				<div class="stars"></div>
 				{/* <Fade> */}
 				<About projectScroll={this.handleOnClick} />
+				<hr style={hr_style} />
 				{/* </Fade> */}
 				{/* <svg className="blinker" style={{ opacity: this.state.arrow }}>
 					<line className="line1" x1="40%" y1="30%" x2="50%" y2="50%" />
 					<line className="line1" x1="50%" y1="50%" x2="60%" y2="30%" />
 				</svg> */}
 				<Focus />
+				<hr style={hr_style} />
 				<div ref={this.projectRef}>
 					<div className="project-grid-title">
 						<h1 className="project-grid-title-text">Here are some examples</h1>

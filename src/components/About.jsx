@@ -13,10 +13,6 @@ class About extends Component {
 					<p className="about-text">
 						My goal with every project is user experience perfection.
 					</p>
-					<p className="about-text">
-						This portfolio is my way if showing what I can do for you and your
-						team.
-					</p>
 				</div>
 				<div className="buttons-container">
 					<Fab

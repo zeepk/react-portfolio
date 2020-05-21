@@ -1,5 +1,8 @@
 :root {
 	--main-bg-color: #6d5e8b98;
+	--projects-bg-color: #6d5e8b00;
+	--projects-title-bg-color: #6d5e8b00;
+	--about-bg-color: #6d5e8b00;
 	--outline-color: transparent;
 	background-color: black;
 	/* background-color: green; */
@@ -75,11 +78,11 @@
 	bottom: 0;
 	z-index: -1;
 
-	-moz-animation: move-background 150s linear infinite;
-	-ms-animation: move-background 150s linear infinite;
-	-o-animation: move-background 150s linear infinite;
-	-webkit-animation: move-background 150s linear infinite;
-	animation: move-background 150s linear infinite;
+	-moz-animation: move-background 50s linear infinite;
+	-ms-animation: move-background 50s linear infinite;
+	-o-animation: move-background 50s linear infinite;
+	-webkit-animation: move-background 50s linear infinite;
+	animation: move-background 50s linear infinite;
 }
 .stars {
 	background: black

@@ -14,13 +14,13 @@ export default class ProjectGrid extends Component {
 	render() {
 		return (
 			<div className="projects-container">
-				<Grid className="outer-grid" container spacing={3}>
+				<Grid className="outer-grid" justify="center" container spacing={5}>
 					<Grid className="project-grid-item" item xs={12} sm={6}>
 						<Fade top>
 							<Project
 								title="Game Server Homepage"
 								body="Site for users to see news and updates for a video game server. Fluid design that's easy to interact with."
-								dev="Owner can update via Django Admin. Created based on user requirements. Designed components of page to fit a common theme."
+								dev="Front end in React with integrated Twitter feed. Owner can update via Django Admin. Created based on customer requirements. Designed components of page to fit a common theme."
 								filename={Arma}
 								link="https://arma-homepage-demo.herokuapp.com/"
 							/>
@@ -31,7 +31,7 @@ export default class ProjectGrid extends Component {
 							<Project
 								title="Animal Crossing Wildlife"
 								body="Users can access game news and information quickly and easily. They can update their progress with a simple checkbox for a complication-free expereince. "
-								dev="Front End site for gamers to track achievements and see wildlife information. Saves progress using local storage. Allows sorting and filtering based on columns."
+								dev="Front end in React. Saves progress using local storage. Allows sorting and filtering based on columns with Prime React UI. Pulls data from local JSON and fetches images from external API."
 								filename={Wildlife}
 								link="https://www.acwildlife.com"
 							/>
@@ -41,7 +41,8 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Podcast Landing Page"
-								body="Landing site for information regarding an EMT podcast. Uses SVG for the background animation. Animations based on scroll and episodes called in dynamically."
+								body="Sample landing site for information regarding an EMT podcast. Uses SVG for the background animation. Animations based on scroll and episodes called in dynamically."
+								dev="Front end in React/JS. Component animations using react-reveal, play animation using vanilla JS. Created based on user requirements."
 								filename={EMT}
 								link="https://emtcast2.netlify.app/"
 							/>
@@ -52,6 +53,7 @@ export default class ProjectGrid extends Component {
 							<Project
 								title="Consultancy Support Site"
 								body="Business home page for a sample tech support company. Uses animations and parallax imagery for the background."
+								dev="Uses animations and parallax imagery for the background. Created as a template for additional requirements. Used animation libraries and "
 								filename={SuperPC}
 								link="https://techsupportsite.netlify.app/"
 							/>
@@ -61,7 +63,8 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Payment Manager Web App"
-								body="In-progress app for users to manage payments. User registration and auth is done with Django and React-Redux."
+								body="In-progress app for users to manage payments. Payment events can be added with a recurring date."
+								dev="Full stack with React and Django. User registration and auth is done with Django and React-Redux. Owner can manage users via the admin panel. "
 								filename={Payments}
 								link="https://payment-manager-test.herokuapp.com"
 							/>
@@ -72,6 +75,7 @@ export default class ProjectGrid extends Component {
 							<Project
 								title="Hiscore Tracker"
 								body="Site that pulls user data and profile image from an external API based on user search. Organizes data on front end to display."
+								dev="Users can access two different pages for seperate games. Stats and profile image are fetched from external API."
 								filename={Woodcut}
 								link="https://woodcut.info/rs3/zee_pk"
 							/>

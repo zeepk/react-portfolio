@@ -1,6 +1,6 @@
 .focus-container {
 	padding: 15vh 0 10vh 0;
-	background-color: #511e1e99;
+	background-color: var(--about-bg-color);
 	color: white;
 	min-height: 100vh;
 }
