@@ -9,6 +9,7 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import Python from '../images/python.png';
 import JS from '../images/js.png';
 import HTML from '../images/html5.png';
+import Svelte from '../images/svelte.png';
 import Form from './Form';
 // import Twitch from '../images/twitch.gif';
 
@@ -45,7 +46,14 @@ export default class OtherThings extends Component {
 				icon = <img src={Python} className="github-icon" alt="python" />;
 			} else if (repo.language === 'HTML' || repo.language === 'CSS') {
 				icon = <img src={HTML} className="github-icon" alt="html" />;
+			} else if (repo.language === 'Java') {
+				icon = <span class="material-icons mobile-icon">phone_iphone</span>;
+			} else if (!repo.language) {
+				icon = <img src={Svelte} className="github-icon" alt="svelte" />;
+			} else {
+				icon = <p>{repo.language}</p>;
 			}
+
 			return (
 				<ListItem button component="a" href={repo.html_url} target="_blank">
 					<ListItemText
