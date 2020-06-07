@@ -1,0 +1,49 @@
+.form-container {
+	text-align: center;
+	z-index: 100 !important;
+	/* padding: 5vh 0; */
+}
+.card-container {
+	text-align: left;
+	margin: 0 auto;
+	height: 400px;
+
+	/* width: 80vw; */
+	/* max-width: 500px; */
+	background-color: rgb(29, 29, 29) !important;
+	color: white !important;
+	border: solid 1px rgb(160, 160, 160);
+}
+.MuiInputBase-input {
+	color: white !important;
+}
+label {
+	display: inline-block !important;
+	width: 100% !important;
+}
+.MuiInputBase-root,
+.MuiFormControl-root {
+	width: 100% !important;
+}
+.form-item {
+	padding: 10px 0;
+}
+.submit-button {
+	background-color: rgb(61, 61, 61) !important;
+}
+.linkedin-button {
+	margin: 0 auto !important;
+	color: white !important;
+	/* padding: 10px 0 0 0 !important; */
+	/* width: 100%; */
+	height: 50px;
+	background-color: #255577 !important;
+	font-weight: bold !important;
+}
+.linkedin-button:hover {
+	background-color: #2e6992 !important;
+}
+.linkedin-icon {
+	padding: 0 2px 0 5px;
+	max-height: 35px;
+}

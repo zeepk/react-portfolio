@@ -1,0 +1,29 @@
+.projects-container {
+	/* width: 90vw; */
+	background-color: var(--projects-bg-color);
+	/* background: transparent
+		url('https://www.itl.cat/pngfile/big/16-165666_dark-city-cartoon-dark-city-background.png')
+		repeat;
+	background-attachment: fixed; */
+}
+.outer-grid {
+	margin: 0 auto !important;
+	width: 90vw !important;
+	padding: 0 0 10vh 0;
+}
+.project-grid-title {
+	transform: skewY(2deg);
+	background-color: var(--projects-title-bg-color);
+	margin: 0;
+	padding: 7vh 0 15vh 0;
+	text-align: center;
+	margin-bottom: -10vh;
+	margin-top: -10vh;
+}
+.project-grid-title-text {
+	transform: skewY(-2deg);
+	color: white;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: calc(28px + (60 - 28) * ((100vw - 300px) / (1600 - 300)));
+}

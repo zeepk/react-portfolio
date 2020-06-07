@@ -1,0 +1,17 @@
+.focus-container {
+	padding: 15vh 0 10vh 0;
+	background-color: var(--about-bg-color);
+	color: white;
+	min-height: 100vh;
+}
+.focus-icon {
+	font-size: 100px;
+	color: #4e93dd;
+}
+.focus-title {
+	font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
+.focus-text {
+	padding: 0 10px 30px 10px;
+	font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
