@@ -59,7 +59,7 @@ export default class ProjectGrid extends Component {
 							/>
 						</Fade>
 					</Grid>
-					<Grid className="project-grid-item" item xs={12} sm={6}>
+					{/* <Grid className="project-grid-item" item xs={12} sm={6}>
 						<Fade top>
 							<Project
 								title="Consultancy Support Site"
@@ -80,7 +80,7 @@ export default class ProjectGrid extends Component {
 								link="https://payment-manager-test.herokuapp.com"
 							/>
 						</Fade>
-					</Grid>
+					</Grid> */}
 				</Grid>
 			</div>
 		);
