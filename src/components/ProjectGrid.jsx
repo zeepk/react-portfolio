@@ -19,8 +19,8 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Game Server Homepage"
-								body="Site for users to see news and updates for a video game server. Fluid design that's easy to interact with."
-								dev="Front end in React with integrated Twitter feed. Owner can update via Django Admin. Created based on customer requirements. Designed components of page to fit a common theme."
+								body="Built for Altis Operations. Site for users to see news and updates for a video game server. Fluid design that's easy to interact with."
+								dev="Front end in React with integrated Twitter feed. Owner can update via Django Admin. Created based on customer requirements. Designed reuseable components."
 								filename={Arma}
 								link="https://arma-homepage-demo.herokuapp.com/"
 							/>
@@ -30,7 +30,7 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Animal Crossing Wildlife"
-								body="Users can access game news and information quickly and easily. They can update their progress with a simple checkbox for a complication-free expereince. "
+								body="Personal project - Users can access game news and information quickly and easily. They can update their progress with a simple checkbox for a complication-free expereince. "
 								dev="Front end in React. Saves progress using local storage. Allows sorting and filtering based on columns with Prime React UI. Pulls data from local JSON and fetches images from external API."
 								filename={Wildlife}
 								link="https://www.acwildlife.com"
@@ -41,7 +41,7 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Sample Restaurant Site"
-								body="Site for customers to see restaurant menu and location."
+								body="Sample ite for customers to see restaurant menu and location."
 								dev="Full stack React and Django. Menu items dynamically fetched from Django REST API. Images automatically stored in AWS S3 upon upload. Google Maps integration to show location."
 								filename={Restaurant}
 								link="https://matt-sample-restaurant.netlify.app/"
