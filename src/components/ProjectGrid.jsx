@@ -51,22 +51,24 @@ export default class ProjectGrid extends Component {
 					<Grid className="project-grid-item" item xs={12} sm={6}>
 						<Fade top>
 							<Project
-								title="Podcast Landing Page"
-								body="Sample landing site for information regarding an EMT podcast. Uses SVG for the background animation. Animations based on scroll and episodes called in dynamically."
-								dev="Front end in React/JS. Component animations using react-reveal, play animation using vanilla JS. Created based on user requirements."
-								filename={EMT}
-								link="https://emtcast2.netlify.app/"
-							/>
-						</Fade>
-					</Grid>
-					{/* <Grid className="project-grid-item" item xs={12} sm={6}>
-						<Fade top>
-							<Project
 								title="Consultancy Support Site"
 								body="Business home page for a sample tech support company. Uses animations and parallax imagery for the background."
 								dev="Uses animations and parallax imagery for the background. Created as a template for additional requirements. Used animation libraries and "
 								filename={SuperPC}
 								link="https://techsupportsite.netlify.app/"
+							/>
+						</Fade>
+					</Grid>
+
+					{/* 
+									<Grid className="project-grid-item" item xs={12} sm={6}>
+						<Fade top>
+							<Project
+								title="Podcast Landing Page"
+								body="Sample landing site for information regarding an EMT podcast. Uses SVG for the background animation. Animations based on scroll and episodes called in dynamically."
+								dev="Front end in React/JS. Component animations using react-reveal, play animation using vanilla JS. Created based on user requirements."
+								filename={EMT}
+								link="https://emtcast2.netlify.app/"
 							/>
 						</Fade>
 					</Grid>
