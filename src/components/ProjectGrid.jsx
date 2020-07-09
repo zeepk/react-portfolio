@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import Project from './Project';
-import Grid from '@material-ui/core/Grid';
-import EMT from '../images/podcast.png';
-import SuperPC from '../images/superpc.png';
-import Wildlife from '../images/wildlife.png';
-import Restaurant from '../images/restaurant.png';
-import Arma from '../images/arma.png';
-import Payments from '../images/payments.png';
-import '../styles/ProjectGrid.css';
-import Fade from 'react-reveal/Fade';
+import React, { Component } from 'react'
+import Project from './Project'
+import Grid from '@material-ui/core/Grid'
+import EMT from '../images/podcast.png'
+import SuperPC from '../images/superpc.png'
+import Wildlife from '../images/wildlife.png'
+import Restaurant from '../images/restaurant.png'
+import Arma from '../images/arma.png'
+import Payments from '../images/payments.png'
+import '../styles/ProjectGrid.css'
+import Fade from 'react-reveal/Fade'
 
 export default class ProjectGrid extends Component {
 	render() {
@@ -41,7 +41,7 @@ export default class ProjectGrid extends Component {
 						<Fade top>
 							<Project
 								title="Sample Restaurant Site"
-								body="Sample ite for customers to see restaurant menu and location."
+								body="Sample site for customers to see restaurant menu and location."
 								dev="Full stack React and Django. Menu items dynamically fetched from Django REST API. Images automatically stored in AWS S3 upon upload. Google Maps integration to show location."
 								filename={Restaurant}
 								link="https://matt-sample-restaurant.netlify.app/"
@@ -83,6 +83,6 @@ export default class ProjectGrid extends Component {
 					</Grid> */}
 				</Grid>
 			</div>
-		);
+		)
 	}
 }
