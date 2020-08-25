@@ -4,6 +4,8 @@ import Clip from '../images/twitch-clip.mp4';
 import Toolbox from '../images/toolbox.png';
 import Python from '../images/python.png';
 import JS from '../images/js.png';
+import ReactLogo from '../images/react.svg';
+import HTML from '../images/htmlcss.png';
 
 const Process = () => {
 	return (
@@ -12,22 +14,38 @@ const Process = () => {
 				className="p-col-12 p-md-6"
 				style={{
 					backgroundColor: '#4e4e4e',
-					display: 'flex',
-					alignItems: 'center',
-					justifyContent: 'center',
 				}}
 			>
-				<Fade>
-					<video
-						style={{ width: '90vw', maxWidth: '700px' }}
-						src={Clip}
-						className="twitch-clip"
-						controls
-						autoPlay
-						loop
-						muted
-					></video>
-				</Fade>
+				<div
+					style={{
+						color: 'white',
+						padding: '10vh 0 10vh 5vw',
+						fontSize: '20px',
+					}}
+				>
+					<div>I ♥ the dev community!</div>
+					<div>Live streaming, Discord, and Twitter keep me involved</div>
+					<div>(and the latest updates to languages & frameworks)</div>
+				</div>
+				<div
+					style={{
+						display: 'flex',
+						alignItems: 'center',
+						justifyContent: 'center',
+					}}
+				>
+					<Fade>
+						<video
+							style={{ width: '90vw', maxWidth: '700px' }}
+							src={Clip}
+							className="twitch-clip"
+							controls
+							autoPlay
+							loop
+							muted
+						></video>
+					</Fade>
+				</div>
 			</div>
 			<div className="p-col-12 p-md-6" style={{ backgroundColor: '#818181' }}>
 				<div
@@ -35,40 +53,56 @@ const Process = () => {
 						color: 'white',
 						fontSize: '1.5vw',
 						width: '90vw',
-						maxWidth: '600px',
-						margin: '20vh auto 0 auto',
+						maxWidth: '700px',
+						margin: '0 auto 0 auto',
 					}}
 				>
-					<div className="p-grid">
-						<div className="p-col-6 p-lg-3">
-							<img
-								src={JS}
-								alt="javascript"
-								style={{ width: '20vw', maxWidth: '100px' }}
-							/>
+					<div
+						style={{
+							color: 'white',
+							padding: '10vh 0 10vh 5vw',
+							fontSize: '20px',
+						}}
+					>
+						<div>I'm always adding things to my toolbox</div>
+						<div>
+							Constant learning keeps me on my toes, and keeps my projects up to
+							date
 						</div>
-						<div className="p-col-6 p-lg-3">
-							<img
-								src={Python}
-								alt="python"
-								style={{ width: '20vw', maxWidth: '100px' }}
-							/>
-						</div>
-						<div className="p-col-6 p-lg-3">
-							<img
-								src={JS}
-								alt="javascript"
-								style={{ width: '20vw', maxWidth: '100px' }}
-							/>
-						</div>
-						<div className="p-col-6 p-lg-3">
-							<img
-								src={Python}
-								alt="python"
-								style={{ width: '20vw', maxWidth: '100px' }}
-							/>
-						</div>
+						{/* <div>(and the latest updates to languages & frameworks)</div> */}
 					</div>
+					<Fade>
+						<div className="p-grid" style={{ textAlign: 'center' }}>
+							<div className="p-col-6 p-lg-3">
+								<img
+									src={JS}
+									alt="javascript"
+									style={{ width: '20vw', maxWidth: '100px' }}
+								/>
+							</div>
+							<div className="p-col-6 p-lg-3">
+								<img
+									src={Python}
+									alt="python"
+									style={{ width: '20vw', maxWidth: '100px' }}
+								/>
+							</div>
+							<div className="p-col-6 p-lg-3">
+								<img
+									src={ReactLogo}
+									alt="react"
+									style={{ width: '20vw', maxWidth: '100px' }}
+								/>
+							</div>
+							<div className="p-col-6 p-lg-3">
+								<img
+									src={HTML}
+									alt="html"
+									style={{ width: '20vw', maxWidth: '120px' }}
+								/>
+							</div>
+						</div>
+					</Fade>
 					<div style={{ display: 'flex', alignContent: 'center' }}>
 						<img
 							src={Toolbox}

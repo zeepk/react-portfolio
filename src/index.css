@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 html {
 	background-color: black;
 }
@@ -13,4 +14,85 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
+}
+.gif-text {
+	/* background-image: url('https://media1.giphy.com/media/3o7bu9zwfieCd1R9HG/giphy.gif?cid=ecf05e475do4qmq0kbbjkvhrn92kppkr9ez0g7ruua796rvq&rid=giphy.gif'); */
+	/* background-image: url('https://media1.giphy.com/media/xT0xeifG3YWtHJ4HQI/giphy.gif?cid=ecf05e47klpz2gp0rq0gl4x21664e2d6x4ip9y2n7znsuigr&rid=giphy.gif'); */
+	background-image: url('https://media3.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif?cid=ecf05e473pholcgergc9rzdri6w732p4t7mgdy9tqz8jl6ji&rid=giphy.gif');
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	font-size: 120px;
+	line-height: 0.75;
+	font-family: 'Alata', sans-serif;
+}
+* {
+	font-family: 'Alata', sans-serif;
+}
+
+/* other-things stuff */
+
+.other-things-container {
+	/* background-color: #d8d8f646; */
+	padding: 20vh 0;
+	min-height: 60vh;
+}
+.other-card-container {
+	text-align: left;
+	margin: 0 auto;
+	height: 400px;
+	background-color: rgb(29, 29, 29) !important;
+	color: white !important;
+	border: solid 1px rgb(160, 160, 160);
+	overflow: auto !important;
+}
+.list-header {
+	background-color: rgb(29, 29, 29) !important;
+	color: white !important;
+	font-size: 20px !important;
+	display: flex;
+	align-items: center;
+	/* margin: 0 0 2vh 0 !important; */
+	text-decoration: none !important;
+	padding: 10px 0;
+}
+.MuiListItem-root:nth-child(odd) {
+	background-color: rgb(37, 37, 37) !important;
+}
+.list-header:hover {
+	background-color: rgb(53, 53, 53) !important;
+}
+.github-icon {
+	max-width: 40px;
+	margin: auto 10px auto 0;
+}
+.mobile-icon {
+	padding-right: 5px;
+
+	font-size: 40px;
+}
+.MuiListItemText-primary {
+	font-size: 15px !important;
+	color: white !important;
+}
+.MuiListItemText-secondary {
+	font-size: 10px !important;
+	color: rgb(207, 207, 207) !important;
+}
+.github-title {
+	vertical-align: middle !important;
+	margin: 5px 0 0 0 !important;
+}
+.MuiButtonBase-root:hover {
+	background-color: rgb(53, 53, 53) !important;
+}
+.MuiList-padding {
+	padding-top: 0 !important;
+}
+.MuiButton-root {
+	text-transform: none !important;
+}
+.form-container {
+	margin: 5vh 0;
 }

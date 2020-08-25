@@ -9,7 +9,7 @@ const MyWork = () => {
 	return (
 		<div style={{ backgroundColor: '#6B9075', padding: '8vh 0 5vh 0' }}>
 			<div
-				style={{ color: 'white', fontSize: '30px', padding: '30px 0 0 30px' }}
+				style={{ color: 'white', fontSize: '40px', padding: '30px 0 0 30px' }}
 			>
 				Here's what I can do for you
 			</div>

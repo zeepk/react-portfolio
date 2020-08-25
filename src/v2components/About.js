@@ -29,15 +29,14 @@ const About = () => {
 						fontSize: '1.5vw',
 						width: '90vw',
 						maxWidth: '600px',
-						margin: '15vh auto 0 auto',
+						margin: '10vh auto 0 auto',
 					}}
 				>
-					<p>Hey there! My name is Matt Hughes.</p>
+					<span className="gif-text">matt hughes.</span>
 					<p>
-						I am a full stack developer with industry experience creating web
-						apps and websites with tools like JavaScript, React, Python, and
-						Django. As a developer, I have a passion for solving problems with
-						creative solutions.
+						Hi 👋 I'm a full stack web developer with industry experience using
+						tools like JavaScript, React, Python, and Django. As a developer, I
+						have a passion for solving problems with creative solutions.
 					</p>
 					<p>Let me help you solve yours!</p>
 				</div>
