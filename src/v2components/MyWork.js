@@ -7,13 +7,13 @@ import Arma from '../images/arma.png';
 import Fade from 'react-reveal/Fade';
 const MyWork = () => {
 	return (
-		<div style={{ backgroundColor: '#6B9075', padding: '8vh 0 5vh 0' }}>
+		<div style={{ backgroundColor: '#6B9075', padding: '8vh 0 20vh 0' }}>
 			<div
 				style={{ color: 'white', fontSize: '40px', padding: '30px 0 0 30px' }}
 			>
 				Here's what I can do for you
 			</div>
-			<div className="p-grid">
+			<div className="p-grid" style={{ margin: 0 }}>
 				<div
 					className="p-col-12 p-md-6"
 					style={{ width: '90vw', maxWidth: '800px', margin: '0 auto' }}
@@ -43,7 +43,7 @@ const MyWork = () => {
 					</Fade>
 				</div>
 			</div>
-			<div className="p-grid">
+			<div className="p-grid" style={{ margin: 0 }}>
 				<div
 					className="p-col-12 p-md-6"
 					style={{ width: '90vw', maxWidth: '800px', margin: '0 auto' }}

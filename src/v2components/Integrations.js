@@ -100,10 +100,15 @@ const Integrations = () => {
 	return (
 		<div
 			className="p-grid"
-			style={{ margin: 0, minHeight: '80vh', backgroundColor: '#93B09B' }}
+			style={{
+				margin: 0,
+				minHeight: '60vh',
+				backgroundColor: '#93B09B',
+				padding: '10vh 0 0 0',
+			}}
 		>
-			<Grid container spacing={3}>
-				<Grid className="grid-item" item xs={12} sm={2}></Grid>
+			<Grid container spacing={3} style={{ maxWidth: '100vw' }}>
+				<Grid className="grid-item" item xs={12} sm={1}></Grid>
 
 				<Grid className="grid-item" item xs={12} sm={4}>
 					<Card className="other-card-container">
@@ -121,10 +126,12 @@ const Integrations = () => {
 						</List>
 					</Card>
 				</Grid>
+				<Grid className="grid-item" item xs={12} sm={2}></Grid>
+
 				<Grid className="grid-item" item xs={12} sm={4}>
 					<Form />
 				</Grid>
-				<Grid className="grid-item" item xs={12} sm={2}></Grid>
+				<Grid className="grid-item" item xs={12} sm={1}></Grid>
 			</Grid>
 		</div>
 	);
