@@ -51,7 +51,7 @@ const MyWork = () => {
 					<Fade>
 						<Project
 							title="Sample Restaurant Site"
-							body="Sample ite for customers to see restaurant menu and location."
+							body="Sample site for customers to see restaurant menu and location."
 							dev="Full stack React and Django. Menu items dynamically fetched from Django REST API. Images automatically stored in AWS S3 upon upload. Google Maps integration to show location."
 							filename={Restaurant}
 							link="https://matt-sample-restaurant.netlify.app/"

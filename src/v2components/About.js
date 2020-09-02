@@ -26,7 +26,7 @@ const About = () => {
 				<div
 					style={{
 						color: 'white',
-						fontSize: '1.5vw',
+						fontSize: '1.5em',
 						width: '90vw',
 						maxWidth: '600px',
 						margin: '10vh auto 0 auto',

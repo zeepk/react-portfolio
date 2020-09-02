@@ -23,7 +23,7 @@ code {
 	color: transparent;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
-	font-size: 120px;
+	font-size: clamp(90px, 130px, 10px);
 	line-height: 0.75;
 	font-family: 'Alata', sans-serif;
 }
@@ -95,4 +95,7 @@ code {
 }
 .form-container {
 	margin: 5vh 0;
+}
+.MuiGrid-spacing-xs-3 {
+	margin: 0 auto !important;
 }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-
+@media only screen and (max-width: 600px) {
+	.hover-content {
+		display: none;
+	}
+}
 .project-image {
 	object-fit: cover !important;
 	width: 100%;
@@ -13,7 +17,7 @@
 }
 .hover-body,
 .dev-body {
-	font-size: 20px;
+	font-size: clamp(20px, 30px, 5px);
 	padding-top: 30px;
 	width: 80%;
 }

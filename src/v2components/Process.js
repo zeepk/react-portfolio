@@ -74,7 +74,7 @@ const Process = () => {
 						<div
 							style={{
 								color: 'white',
-								padding: '10vh 0 10vh 5vw',
+								padding: '10vh 0 10vh 0vw',
 								fontSize: '20px',
 							}}
 						>
