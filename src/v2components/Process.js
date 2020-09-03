@@ -129,7 +129,7 @@ const Process = () => {
 									width: '30vw',
 									minWidth: '200px',
 									height: 'auto',
-									margin: '60px auto 0 auto',
+									margin: '0 auto 0 auto',
 								}}
 							/>
 						</div>
