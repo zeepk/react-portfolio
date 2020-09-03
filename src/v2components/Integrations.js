@@ -104,35 +104,35 @@ const Integrations = () => {
 				margin: 0,
 				minHeight: '60vh',
 				backgroundColor: '#93B09B',
-				padding: '10vh 0 0 0',
+				padding: '10vh 0 5vh 0',
 			}}
 		>
-			<Grid container spacing={3} style={{ maxWidth: '100vw' }}>
-				<Grid className="grid-item" item sm={12} md={1}></Grid>
+			<div
+				className="p-col-12 p-md-6"
+				style={{ margin: '0 auto', maxWidth: '600px' }}
+			>
+				<Card className="other-card-container">
+					<List className="list">
+						<ListSubheader
+							className="list-header"
+							component="a"
+							href="https://www.github.com/zeepk"
+							target="_blank"
+						>
+							<img src={GithubIcon} className="github-icon" alt="github" />
+							<h2 className="github-title">Github</h2>
+						</ListSubheader>
+						{sorted_github_data}
+					</List>
+				</Card>
+			</div>
 
-				<Grid className="grid-item" item sm={12} md={4}>
-					<Card className="other-card-container">
-						<List className="list">
-							<ListSubheader
-								className="list-header"
-								component="a"
-								href="https://www.github.com/zeepk"
-								target="_blank"
-							>
-								<img src={GithubIcon} className="github-icon" alt="github" />
-								<h2 className="github-title">Github</h2>
-							</ListSubheader>
-							{sorted_github_data}
-						</List>
-					</Card>
-				</Grid>
-				<Grid className="grid-item" item sm={12} md={2}></Grid>
-
-				<Grid className="grid-item" item sm={12} md={4}>
-					<Form />
-				</Grid>
-				<Grid className="grid-item" item sm={12} md={1}></Grid>
-			</Grid>
+			<div
+				className="p-col-12 p-md-6"
+				style={{ margin: '0 auto', maxWidth: '600px' }}
+			>
+				<Form />
+			</div>
 		</div>
 	);
 };
