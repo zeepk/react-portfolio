@@ -109,3 +109,9 @@ code {
 	transform: rotateZ(-10deg);
 	transition: 0.2s ease-in-out;
 }
+.footer-link {
+	text-decoration: none !important;
+}
+.footer-link:hover {
+	text-decoration: underline !important;
+}

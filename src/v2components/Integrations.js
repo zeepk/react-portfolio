@@ -108,9 +108,9 @@ const Integrations = () => {
 			}}
 		>
 			<Grid container spacing={3} style={{ maxWidth: '100vw' }}>
-				<Grid className="grid-item" item xs={12} sm={1}></Grid>
+				<Grid className="grid-item" item sm={12} md={1}></Grid>
 
-				<Grid className="grid-item" item xs={12} sm={4}>
+				<Grid className="grid-item" item sm={12} md={4}>
 					<Card className="other-card-container">
 						<List className="list">
 							<ListSubheader
@@ -126,12 +126,12 @@ const Integrations = () => {
 						</List>
 					</Card>
 				</Grid>
-				<Grid className="grid-item" item xs={12} sm={2}></Grid>
+				<Grid className="grid-item" item sm={12} md={2}></Grid>
 
-				<Grid className="grid-item" item xs={12} sm={4}>
+				<Grid className="grid-item" item sm={12} md={4}>
 					<Form />
 				</Grid>
-				<Grid className="grid-item" item xs={12} sm={1}></Grid>
+				<Grid className="grid-item" item sm={12} md={1}></Grid>
 			</Grid>
 		</div>
 	);
