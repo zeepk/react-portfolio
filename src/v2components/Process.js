@@ -50,7 +50,11 @@ const Process = () => {
 					>
 						<Fade>
 							<video
-								style={{ width: '90vw', maxWidth: '700px' }}
+								style={{
+									width: '90vw',
+									maxWidth: '700px',
+									paddingBottom: '10vh',
+								}}
 								src={Clip}
 								className="twitch-clip"
 								controls
@@ -87,28 +91,28 @@ const Process = () => {
 						</div>
 						<Fade>
 							<div className="p-grid" style={{ textAlign: 'center' }}>
-								<div className="p-col-6 p-lg-3">
+								<div className="tech-icon p-col-6 p-lg-3">
 									<img
 										src={JS}
 										alt="javascript"
 										style={{ width: '20vw', maxWidth: '100px' }}
 									/>
 								</div>
-								<div className="p-col-6 p-lg-3">
+								<div className="tech-icon p-col-6 p-lg-3">
 									<img
 										src={Python}
 										alt="python"
 										style={{ width: '20vw', maxWidth: '100px' }}
 									/>
 								</div>
-								<div className="p-col-6 p-lg-3">
+								<div className="tech-icon p-col-6 p-lg-3">
 									<img
 										src={ReactLogo}
 										alt="react"
 										style={{ width: '20vw', maxWidth: '100px' }}
 									/>
 								</div>
-								<div className="p-col-6 p-lg-3">
+								<div className="tech-icon p-col-6 p-lg-3">
 									<img
 										src={HTML}
 										alt="html"
@@ -124,6 +128,7 @@ const Process = () => {
 								style={{
 									width: '30vw',
 									maxWidth: '300px',
+									minWidth: '200px',
 									margin: '60px auto 0 auto',
 								}}
 							/>

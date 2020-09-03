@@ -99,3 +99,12 @@ code {
 .MuiGrid-spacing-xs-3 {
 	margin: 0 auto !important;
 }
+.tech-icon {
+	transition: 0.2s ease-in-out;
+}
+.tech-icon img:hover {
+	-webkit-transform: rotateZ(-10deg);
+	-ms-transform: rotateZ(-10deg);
+	transform: rotateZ(-10deg);
+	transition: 0.2s ease-in-out;
+}
