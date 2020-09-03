@@ -23,7 +23,8 @@ code {
 	color: transparent;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
-	font-size: clamp(90px, 130px, 10px);
+	/* font-size: clamp(90px, 130px, 10px); */
+	font-size: 90px;
 	line-height: 0.75;
 	font-family: 'Alata', sans-serif;
 }
