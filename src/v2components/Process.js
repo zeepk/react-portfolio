@@ -126,9 +126,7 @@ const Process = () => {
 								src={Toolbox}
 								alt="toolbox"
 								style={{
-									width: '30vw',
-									minWidth: '200px',
-									height: 'auto',
+									height: '40vh',
 									margin: '0 auto 0 auto',
 								}}
 							/>
