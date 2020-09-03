@@ -126,10 +126,12 @@ const Process = () => {
 								src={Toolbox}
 								alt="toolbox"
 								style={{
-									width: 'auto',
+									width: '30vw',
 									maxWidth: '300px',
 									minWidth: '200px',
+									height: 'auto',
 									margin: '60px auto 0 auto',
+									viewBox: '0 0 100 100',
 								}}
 							/>
 						</div>
