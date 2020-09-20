@@ -4,9 +4,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import Form from './Form';
-import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
-
 import GithubIcon from '../images/github.png';
 import Python from '../images/python.png';
 import JS from '../images/js.png';
