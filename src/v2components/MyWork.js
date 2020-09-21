@@ -4,6 +4,7 @@ import SuperPC from '../images/superpc.png';
 import Wildlife from '../images/wildlife.png';
 import Restaurant from '../images/restaurant.png';
 import Arma from '../images/arma.png';
+import Woodcut from '../images/woodcut.png';
 import Fade from 'react-reveal/Fade';
 const MyWork = () => {
 	return (
@@ -62,13 +63,22 @@ const MyWork = () => {
 					className="p-col-12 p-md-6"
 					style={{ width: '90vw', maxWidth: '800px', margin: '0 auto' }}
 				>
-					<Fade>
+					{/* <Fade>
 						<Project
 							title="Consultancy Support Site"
 							body="Business home page for a sample tech support company. Uses animations and parallax imagery for the background."
 							dev="Uses animations and parallax imagery for the background. Created as a template for additional requirements. Used animation libraries and "
 							filename={SuperPC}
 							link="https://techsupportsite.netlify.app/"
+						/>
+					</Fade> */}
+					<Fade>
+						<Project
+							title="Game Statistic Tracking"
+							body="Web tool for tracking user game stats over time. Users can easily see their progress and history, as well as comparisons with others."
+							dev="React front end fetches from Node API, which is linked to a MongoDB cluster.. CRON job runs each night to reset daily progress."
+							filename={Woodcut}
+							link="https://woodcut.info/rs3/"
 						/>
 					</Fade>
 				</div>
