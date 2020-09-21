@@ -75,7 +75,7 @@ const MyWork = () => {
 						<Project
 							title="Game Statistic Tracking"
 							body="Web tool for tracking user game stats over time. Users can easily see their progress and history, as well as comparisons with others."
-							dev="React front end fetches from Node API, which is linked to a MongoDB cluster.. CRON job runs each night to reset daily progress."
+							dev="React front end fetches from Node API, which is linked to a MongoDB cluster. CRON job runs each night to reset daily progress."
 							filename={Woodcut}
 							link="https://woodcut.info/rs3/"
 						/>
