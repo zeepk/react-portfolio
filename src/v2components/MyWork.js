@@ -1,6 +1,5 @@
 import React from 'react';
 import Project from './Project';
-import SuperPC from '../images/superpc.png';
 import Wildlife from '../images/wildlife.png';
 import Restaurant from '../images/restaurant.png';
 import Arma from '../images/arma.png';
