@@ -1,9 +1,8 @@
 import React from 'react';
-import Container from './v2components/Container';
 import ReactGA from 'react-ga';
 import 'primeflex/primeflex.css';
 import Fade from 'react-reveal/Fade';
-
+import AppRouter from './AppRouter';
 console.info(
 	"%c👋 Hi there! You must know your way around if you're seeing this! My portfolio uses React for rendering/organization and PrimeReact for UI elements. Feel free to poke around! Here's the code: https://www.github.com/zeepk/react-portfolio ",
 	'background: #292b4a; color: white; font-size: medium'
@@ -20,7 +19,7 @@ function App() {
 	return (
 		<div className="App">
 			<Fade>
-				<Container />
+				<AppRouter />
 			</Fade>
 		</div>
 	);
