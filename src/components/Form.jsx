@@ -9,7 +9,7 @@ import Linkedin from '../images/linkedinIcon.png';
 class Form extends Component {
 	render() {
 		return (
-			<div className="form-container">
+			<div className="">
 				<Card className="card-container">
 					<CardContent>
 						<h1 className="form-title" style={{ textAlign: 'center' }}>
