@@ -1,3 +1,16 @@
 .uses-container {
-	margin: 5vh 0 0 5vw;
+	margin: 0;
+	padding: 5vh 0 0 5vw;
+	background-color: #181a1b;
+	color: white;
+	min-height: 95vh;
+	width: 95vw;
+}
+.uses-container > p > a,
+.uses-container > a {
+	color: #337dff;
+}
+.uses-container > a:hover,
+.uses-container > p > a:hover {
+	color: #5f85c9;
 }
