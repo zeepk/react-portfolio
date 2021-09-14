@@ -12,6 +12,8 @@ import HTML from '../images/html5.png';
 import Vue from '../images/vue.png';
 import Svelte from '../images/svelte.png';
 import Electron from '../images/electron.png';
+import TypeScript from '../images/ts.png';
+import Dotnet from '../images/dotnet.svg';
 const Integrations = () => {
 	const [githubData, setGithubData] = useState([]);
 	useEffect(() => {
@@ -24,7 +26,7 @@ const Integrations = () => {
 			.then((data) => setGithubData(data));
 	}, []);
 	const github_data = githubData.sort((a, b) =>
-		a.updated_at < b.updated_at ? 1 : -1
+		a.updated_at < b.updated_at ? 1 : -1,
 	);
 	const sorted_github_data = github_data.map((repo) => {
 		const date = new Date(repo.updated_at);
@@ -65,6 +67,25 @@ const Integrations = () => {
 			icon = <img src={HTML} className="github-icon" alt="html" title="HTML" />;
 		} else if (repo.language === 'Vue') {
 			icon = <img src={Vue} className="github-icon" alt="vue" title="Vue" />;
+		} else if (repo.language === 'C#') {
+			icon = (
+				<img
+					src={Dotnet}
+					className="dotnet-icon"
+					alt="dotnet"
+					title="Dotnet"
+					style={{ maxWidth: '3rem' }}
+				/>
+			);
+		} else if (repo.language === 'TypeScript') {
+			icon = (
+				<img
+					src={TypeScript}
+					className="ts-icon"
+					alt="typescript"
+					title="TypeScript"
+				/>
+			);
 		} else if (repo.language === 'Java') {
 			icon = (
 				<span className="material-icons mobile-icon" title="iOS/Android">

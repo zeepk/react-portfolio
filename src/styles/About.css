@@ -54,3 +54,6 @@
 .button {
 	margin-right: 20px !important;
 }
+.text--about {
+	white-space: pre;
+}

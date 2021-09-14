@@ -3,7 +3,7 @@ import Project from './Project';
 import Wildlife from '../images/wildlife.png';
 import Restaurant from '../images/restaurant.png';
 import Arma from '../images/arma.png';
-import Woodcut from '../images/woodcut.png';
+import Woodcut from '../images/woodcut3.png';
 import Fade from 'react-reveal/Fade';
 const MyWork = () => {
 	return (
@@ -20,11 +20,11 @@ const MyWork = () => {
 				>
 					<Fade>
 						<Project
-							title="Game Server Homepage"
-							body="Built for Altis Operations. Site for users to see news and updates for a video game server. Fluid design that's easy to interact with."
-							dev="Front end in React with integrated Twitter feed. Owner can update via Django Admin. Created based on customer requirements. Designed reuseable components."
-							filename={Arma}
-							link="https://arma-homepage-demo.herokuapp.com/"
+							title="Game Statistic Tracking"
+							body="Web tool for tracking user game stats over time. Users can create an account, and easily see their progress and history, as well as comparisons with others."
+							dev="React front end fetches from .NET 5 API with Authentication, which is linked to an Azure SQL instance. CRON job runs each night to reset daily progress."
+							filename={Woodcut}
+							link="https://woodcut.info"
 						/>
 					</Fade>
 				</div>
@@ -73,11 +73,11 @@ const MyWork = () => {
 					</Fade> */}
 					<Fade>
 						<Project
-							title="Game Statistic Tracking"
-							body="Web tool for tracking user game stats over time. Users can easily see their progress and history, as well as comparisons with others."
-							dev="React front end fetches from Node API, which is linked to a MongoDB cluster. CRON job runs each night to reset daily progress."
-							filename={Woodcut}
-							link="https://woodcut.info/rs3/"
+							title="Game Server Homepage"
+							body="Built for Altis Operations. Site for users to see news and updates for a video game server. Fluid design that's easy to interact with."
+							dev="Front end in React with integrated Twitter feed. Owner can update via Django Admin. Created based on customer requirements. Designed reuseable components."
+							filename={Arma}
+							link="https://arma-homepage-demo.herokuapp.com/"
 						/>
 					</Fade>
 				</div>

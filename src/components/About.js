@@ -38,9 +38,17 @@ const About = () => {
 						<span role="img" aria-label="waving hand">
 							👋
 						</span>{' '}
-						I'm a full stack web developer with industry experience using tools
-						like JavaScript, React, Python, and Django. As a developer, I have a
-						passion for solving problems with creative solutions.
+						<div>
+							I'm a full stack web developer with industry experience using
+							tools like
+						</div>
+						<div style={{ margin: '1rem 0' }}>
+							JavaScript // React // Vue // Python // Django // CSharp // .NET
+						</div>
+						<div>
+							As a developer, I have a passion for solving problems with
+							creative solutions.
+						</div>
 					</p>
 					<p>Let me help you solve yours!</p>
 				</div>
