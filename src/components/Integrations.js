@@ -14,12 +14,15 @@ import Svelte from '../images/svelte.png';
 import Electron from '../images/electron.png';
 import TypeScript from '../images/ts.png';
 import Dotnet from '../images/dotnet.svg';
+
+const githubApiKey = process.env.REACT_APP_GITHUB_API_KEY;
+
 const Integrations = () => {
 	const [githubData, setGithubData] = useState([]);
 	useEffect(() => {
 		fetch('https://api.github.com/users/zeepk/repos?per_page=100', {
 			headers: {
-				Authorization: '8ecf1ab2ae445bc4abe3e7404b2c89bb8120fed8',
+				Authorization: githubApiKey,
 			},
 		})
 			.then((response) => response.json())
