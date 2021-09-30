@@ -3,9 +3,9 @@ import Fade from 'react-reveal/Fade';
 import Clip from '../images/twitch-clip.mp4';
 import Toolbox from '../images/toolbox.png';
 import Python from '../images/python.png';
-import JS from '../images/js.png';
+import Dotnet from '../images/dotnet.svg';
 import ReactLogo from '../images/react.svg';
-import HTML from '../images/htmlcss.png';
+import Vue from '../images/vue.png';
 
 const Process = () => {
 	return (
@@ -52,7 +52,7 @@ const Process = () => {
 							<video
 								style={{
 									width: '90vw',
-									maxWidth: '700px',
+									maxWidth: '90%',
 									paddingBottom: '10vh',
 								}}
 								src={Clip}
@@ -93,8 +93,8 @@ const Process = () => {
 							<div className="p-grid" style={{ textAlign: 'center' }}>
 								<div className="tech-icon p-col-6 p-lg-3">
 									<img
-										src={JS}
-										alt="javascript"
+										src={Vue}
+										alt="Vue"
 										style={{ width: '20vw', maxWidth: '100px' }}
 									/>
 								</div>
@@ -114,9 +114,9 @@ const Process = () => {
 								</div>
 								<div className="tech-icon p-col-6 p-lg-3">
 									<img
-										src={HTML}
-										alt="html"
-										style={{ width: '20vw', maxWidth: '120px' }}
+										src={Dotnet}
+										alt="Dotnet / C#"
+										style={{ width: '20vw', maxWidth: '100px' }}
 									/>
 								</div>
 							</div>

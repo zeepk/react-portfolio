@@ -18,17 +18,26 @@ const About = () => {
 					<img
 						src={Me}
 						alt="Matt Hughes"
-						style={{ maxHeight: '50vh', margin: '0 auto', padding: '20px' }}
+						style={{
+							maxHeight: '50vh',
+							margin: '0 auto',
+							padding: '20px',
+							width: '90%',
+							maxWidth: '30rem',
+						}}
 					/>
 				</Fade>
 			</div>
-			<div className="p-col-12 p-md-6" style={{ backgroundColor: '#295135' }}>
+			<div
+				className="p-col-12 p-md-6 p-pl-3"
+				style={{ backgroundColor: '#295135' }}
+			>
 				<div
 					style={{
 						color: 'white',
 						fontSize: '1.5em',
 						width: '90vw',
-						maxWidth: '600px',
+						maxWidth: '100%',
 						margin: '10vh auto 0 auto',
 					}}
 				>
