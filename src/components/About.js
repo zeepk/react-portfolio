@@ -22,7 +22,7 @@ const About = () => {
 							maxHeight: '50vh',
 							margin: '0 auto',
 							padding: '20px',
-							width: '90%',
+							// width: '90%',
 							maxWidth: '30rem',
 						}}
 					/>
@@ -47,19 +47,15 @@ const About = () => {
 						<span role="img" aria-label="waving hand">
 							👋
 						</span>{' '}
-						<div>
-							I'm a full stack web developer with industry experience using
-							tools like
+						<div style={{ margin: '1rem 0' }}>
+							I'm a full stack web developer with experience in both the
+							Financial and Healthcare tech industries
 						</div>
 						<div style={{ margin: '1rem 0' }}>
-							JavaScript // React // Vue // Python // Django // CSharp // .NET
-						</div>
-						<div>
-							As a developer, I have a passion for solving problems with
-							creative solutions.
+							I work with tools like TypeScript // React // Vue // Python //
+							Django // CSharp // .NET
 						</div>
 					</p>
-					<p>Let me help you solve yours!</p>
 				</div>
 			</div>
 		</div>

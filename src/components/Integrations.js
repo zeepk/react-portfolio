@@ -10,7 +10,6 @@ import Python from '../images/python.png';
 import JS from '../images/js.png';
 import HTML from '../images/html5.png';
 import Vue from '../images/vue.png';
-import Svelte from '../images/svelte.png';
 import Electron from '../images/electron.png';
 import TypeScript from '../images/ts.png';
 import Dotnet from '../images/dotnet.svg';
@@ -29,10 +28,28 @@ const Integrations = () => {
 			.then((data) => setGithubData(data));
 	}, []);
 	const github_data = githubData.sort((a, b) =>
-		a.updated_at < b.updated_at ? 1 : -1,
+		a.pushed_at < b.pushed_at ? 1 : -1,
 	);
 	const sorted_github_data = github_data.map((repo) => {
-		const date = new Date(repo.updated_at);
+		const date = new Date(repo.pushed_at);
+		const today = new Date();
+		const days = Math.floor((today - date) / 86400000);
+		const daysText = (days) => {
+			if (days === 0) {
+				return 'Last updated today';
+			}
+			if (days === 1) {
+				return 'Last updated yesterday';
+			}
+			if (days > 365 * 2) {
+				const years = Math.floor(days / 365);
+				return `Last updated over ${years} years ago`;
+			}
+			if (days > 365) {
+				return 'Last updated over a year ago';
+			}
+			return `Last updated ${days} days ago`;
+		};
 		let icon = repo.language;
 		if (
 			repo.name === 'image-shrinker' ||
@@ -95,10 +112,6 @@ const Integrations = () => {
 					phone_iphone
 				</span>
 			);
-		} else if (!repo.language) {
-			icon = (
-				<img src={Svelte} className="github-icon" alt="svelte" title="Svelte" />
-			);
 		} else {
 			icon = <p>{repo.language}</p>;
 		}
@@ -111,10 +124,7 @@ const Integrations = () => {
 				target="_blank"
 				key={repo.html_url}
 			>
-				<ListItemText
-					primary={repo.name}
-					secondary={`Last updated: ${date.toDateString()}`}
-				/>
+				<ListItemText primary={repo.name} secondary={daysText(days)} />
 				{icon}
 			</ListItem>
 		);
