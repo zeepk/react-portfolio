@@ -1,6 +1,5 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Clip from "../images/twitch-clip.mp4";
 import Toolbox from "../images/toolbox.png";
 import Python from "../images/python.png";
 import Dotnet from "../images/dotnet-logo.png";
