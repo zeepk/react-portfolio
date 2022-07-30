@@ -5,6 +5,7 @@ import Python from "../images/python.png";
 import Dotnet from "../images/dotnet-logo.png";
 import ReactLogo from "../images/react.svg";
 import Vue from "../images/vue.png";
+import Twitch from "../images/twitch.png";
 
 const Process = () => {
   return (
@@ -48,21 +49,16 @@ const Process = () => {
             }}
           >
             <Fade>
-              <video
+              <img
                 style={{
                   width: "90vw",
                   maxWidth: "90%",
                   paddingBottom: "10vh",
                 }}
-                src={
-                  "https://production.assets.clips.twitchcdn.net/AT-cm%7Cm_zLbwEfyR5vNQz_tbXNuQ.mp4?sig=07378cb7623b0267a7a9e17400627c7841fb05b1&token=%7B%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22clip_uri%22%3A%22https%3A%2F%2Fproduction.assets.clips.twitchcdn.net%2FAT-cm%257Cm_zLbwEfyR5vNQz_tbXNuQ.mp4%22%2C%22device_id%22%3A%22387a2fad6dc153a7%22%2C%22expires%22%3A1656379056%2C%22user_id%22%3A%22117653797%22%2C%22version%22%3A2%7D"
-                }
+                src={Twitch}
+                alt="twitch screenshot"
                 className="twitch-clip"
-                controls
-                autoPlay
-                loop
-                muted
-              ></video>
+              ></img>
             </Fade>
           </div>
         </div>
