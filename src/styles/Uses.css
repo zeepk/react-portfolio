@@ -1,16 +1,53 @@
 .uses-container {
-	margin: 0;
-	padding: 5vh 0 0 5vw;
-	background-color: #181a1b;
-	color: white;
-	min-height: 95vh;
-	width: 95vw;
+  margin: 0;
+  padding: 5vh 0 0 5vw;
+  background-color: #181a1b;
+  color: white;
+  min-height: 95vh;
+  width: 95vw;
 }
 .uses-container > p > a,
 .uses-container > a {
-	color: #337dff;
+  color: #337dff;
 }
 .uses-container > a:hover,
 .uses-container > p > a:hover {
-	color: #5f85c9;
+  color: #5f85c9;
+}
+.sponsor-page {
+  font-size: 1.2rem;
+  background-color: #181a1b;
+  /* background-color: #202f24; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 5rem 0;
+}
+.sponsor-container {
+  color: white;
+  min-height: 95vh;
+  width: 40rem;
+  max-width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.sponsor-container > p > a.twitch {
+  color: #ae67ae;
+}
+.sponsor-container > p > a.github {
+  color: #b9b9b9;
+}
+.sponsor-container > a:hover,
+.sponsor-container > p > a:hover {
+  cursor: pointer;
+  filter: brightness(1.5);
+}
+.sponsor-container > img {
+  width: 40rem;
+  max-width: 90vw;
 }
